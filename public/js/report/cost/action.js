@@ -1,0 +1,81 @@
+$('#btn-day').on('click', function () {
+    if($(this).hasClass('btn-grd-warning')) return false;
+    $('.add-display').addClass('d-none');
+    $('#day').removeClass('d-none');
+    $('.btn-edit-display').removeClass('btn-grd-warning');
+    $('#btn-day').addClass('btn-grd-warning');
+    typeActionCostReport = 1;
+    timeActionCostReport = $('#calendar-day').val();
+    fromDateCostReport = '';
+    toDateCostReport = '';
+    loadData();
+});
+$('#btn-week').on('click', function () {
+    if($(this).hasClass('btn-grd-warning')) return false;
+    $('.add-display').addClass('d-none');
+    $('#week').removeClass('d-none');
+    $('.btn-edit-display').removeClass('btn-grd-warning');
+    $('#btn-week').addClass('btn-grd-warning');
+    typeActionCostReport = 2;
+    timeActionCostReport = moment().format('WW/YYYY');
+    fromDateCostReport = '';
+    toDateCostReport = '';
+    loadData();
+});
+$('#btn-month').on('click', function () {
+    if($(this).hasClass('btn-grd-warning')) return false;
+    $('.add-display').addClass('d-none');
+    $('#month').removeClass('d-none');
+    $('.btn-edit-display').removeClass('btn-grd-warning');
+    $('#btn-month').addClass('btn-grd-warning');
+    typeActionCostReport = 3;
+    timeActionCostReport = $('#calendar-month').val();
+    fromDateCostReport = '';
+    toDateCostReport = '';
+    loadData();
+});
+$('#btn-3month').on('click', function () {
+    if($(this).hasClass('btn-grd-warning')) return false;
+    $('.add-display').addClass('d-none');
+    $('.btn-edit-display').removeClass('btn-grd-warning');
+    $('#btn-3month').addClass('btn-grd-warning');
+    typeActionCostReport = 4;
+    timeActionCostReport = moment().format('MM/YYYY');
+    fromDateCostReport = '';
+    toDateCostReport = '';
+    loadData();
+});
+$('#btn-year').on('click', function () {
+    if($(this).hasClass('btn-grd-warning')) return false;
+    $('.add-display').addClass('d-none');
+    $('#year').removeClass('d-none');
+    $('.btn-edit-display').removeClass('btn-grd-warning');
+    $('#btn-year').addClass('btn-grd-warning');
+    typeActionCostReport = 5;
+    timeActionCostReport = $('#calendar-year').val();
+    fromDateCostReport = '';
+    toDateCostReport = '';
+    loadData();
+});
+$('#btn-3year').on('click', function () {
+    if($(this).hasClass('btn-grd-warning')) return false;
+    $('.add-display').addClass('d-none');
+    $('.btn-edit-display').removeClass('btn-grd-warning');
+    $('#btn-3year').addClass('btn-grd-warning');
+    typeActionCostReport = 6;
+    timeActionCostReport = moment().format('YYYY');
+    fromDateCostReport = '';
+    toDateCostReport = '';
+    loadData();
+});
+$('#btn-allyear').on('click', function () {
+    if($(this).hasClass('btn-grd-warning')) return false;
+    $('.add-display').addClass('d-none');
+    $('.btn-edit-display').removeClass('btn-grd-warning');
+    $('#btn-allyear').addClass('btn-grd-warning');
+    typeActionCostReport = 8;
+    timeActionCostReport = moment().format('YYYY');
+    fromDateCostReport = '';
+    toDateCostReport = '';
+    loadData();
+});

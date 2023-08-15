@@ -1,0 +1,114 @@
+/*!*====== menu nav ======*!*/
+
+/*.seemt-nav{*/
+/*    background: #FFFFFF;*/
+/*    width: 64px;*/
+/*    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.04);*/
+/*    border-radius: 0px 8px 8px 0px;*/
+/*    height: 90%;*/
+/*    left: -12%;*/
+/*    position: fixed;*/
+/*    top: 76px;*/
+/*}*/
+
+/*.seemt-nav ul{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    row-gap: 24px;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding-top: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.seemt-nav ul li{*/
+/*    font-size: 20px;*/
+/*    cursor: pointer;*/
+/*    transition: all .2s linear;*/
+/*    color: #A7A8AB;*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.seemt-nav ul li:hover::before{*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    height: 80%;*/
+/*    width: 3px;*/
+/*    background: #A7A8AB;*/
+/*    left: 5px;*/
+/*    border-top-right-radius: 12px;*/
+/*    border-bottom-right-radius: 12px;*/
+/*}*/
+
+/*.seemt-nav ul li:hover{*/
+/*    transform: scale(1.2);*/
+/*}*/
+
+/*.seemt-nav ul li.active{*/
+/*    color: #E96012 !important;*/
+/*    transform: scale(1.2);*/
+/*}*/
+
+/*.seemt-nav ul li.active::before{*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    height: 80%;*/
+/*    width: 3px;*/
+/*    background: #E96012;*/
+/*    left: 5px;*/
+/*    border-top-right-radius: 12px;*/
+/*    border-bottom-right-radius: 12px;*/
+/*}*/
+
+/*!*.seemt-menu-left.active{*!*/
+/*!*    transition: all .2s linear;*!*/
+/*!*    left: 0;*!*/
+/*!*}*!*/
+
+/*!*.seemt-nav.active{*!*/
+/*!*    transition: all .2s linear;*!*/
+/*!*    left: 0;*!*/
+/*!*}*!*/
+
+/*.seemt-support-btns{*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 20px;*/
+/*    position: absolute;*/
+/*    bottom: 20px;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.seemt-support-btns li{*/
+/*    list-style: none;*/
+/*    color: #A7A8AB;*/
+/*}*/
+
+/*.seemt-support-btns span i{*/
+/*    height: 24px;*/
+/*}*/
+
+
+/*.seemt-support-btns span{*/
+/*    font-size:20px !important;*/
+/*    width: 38px;*/
+/*    height: 38px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border-radius: 20px;*/
+/*    cursor: pointer;*/
+/*    background: #E3ECF5;*/
+/*    color: #1462B0;*/
+/*    transition: all .2s linear;*/
+/*}*/
+
+/*.seemt-support-btns span:hover{*/
+/*    background: #1462B0;*/
+/*    color: #E3ECF5;*/
+/*}*/
+
+

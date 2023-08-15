@@ -1,0 +1,32 @@
+version: '3'
+services:
+  aloline-message-service:
+    image: overatevntech/nestjs-aloline-message-service:0.0.06
+    container_name: aloline-message-service
+    restart: always
+    ports:
+      - '9015:9015'
+    deploy:
+      mode: global
+    environment:
+      - CONFIG_VALUE_PORT=9015
+      - CONFIG_VALUE_PREFIX=api/v1
+      - CONFIG_VALUE_DOMAIN_SERVICE=http://172.16.10.97
+      - CONFIG_VALUE_DOMAIN_MEDIA_SERVICE=
+      - CONFIG_VALUE_OLD_DOMAIN=
+      - CONFIG_VALUE_CASSANDRA_HOST=172.16.10.103
+      - CONFIG_VALUE_CASSANDRA_PORT=9042
+      - CONFIG_VALUE_CASSANDRA_KEYSPACE=cassandra_chat_aloline
+      - CONFIG_VALUE_CASSANDRA_USER_NAME=cassandra_chat_db
+      - CONFIG_VALUE_CASSANDRA_PASSWORD=3pvqWqghnCwFvGTvN5PE
+      - CONFIG_VALUE_REDIS_HOST=172.16.10.92
+      - CONFIG_VALUE_REDIS_PORT=6379
+      - CONFIG_VALUE_REDIS_PASSWORD=redis_beta_chat_password
+      - CONFIG_VALUE_REDIS_DB=1
+      - CONFIG_VALUE_ELASTIC_HOST=172.16.10.103
+      - CONFIG_VALUE_ELASTIC_PORT=9200
+      - CONFIG_VALUE_KAFKA_HOST=172.16.10.95
+      - CONFIG_VALUE_KAFKA_PORT=9092
+      - CONFIG_VALUE_KAFKA_GROUP_ID=kafka-message-service-aloline
+      - CONFIG_VALUE_KAFKA_CLIENT_ID=aloline-node
+

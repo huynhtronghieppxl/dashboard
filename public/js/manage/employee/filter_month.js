@@ -1,0 +1,3 @@
+$(function () {
+    dateTimePickerMonthYearTemplate($('#calendar-month'));
+})

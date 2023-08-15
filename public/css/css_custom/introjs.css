@@ -1,0 +1,59 @@
+.introjs-tooltip {
+    min-width: 250px !important;
+    max-width: 300px !important;
+    border-radius: 6px !important;
+    border-bottom: 7px solid #ffa233 !important;
+}
+
+.introjs-donebutton{
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#0089bc), color-stop(51%, #016d6f), to(#0089bc)) !important;
+    background-image: linear-gradient(to right, #0089bc 0%, #016d6f 51%, #0089bc 100%) !important;
+    color: #fff !important;
+    border: 1px solid transparent !important;
+    text-shadow : none;
+    outline: none;
+}
+
+.introjs-helperNumberLayer{
+    background: #ffa233;
+}
+
+.introjs-disabled, .introjs-disabled:hover, .introjs-disabled:focus{
+    color: #9a9a9a !important;
+    border-color: #d4d4d4 !important;
+    box-shadow: none !important;
+    cursor: default !important;
+    background-color: #f4f4f4 !important;
+    background-image: none !important;
+    text-decoration: none !important;
+}
+
+.introjs-prevbutton{
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#546686), color-stop(51%, #293141), to(#546686));
+    background-image: linear-gradient(to right, #546686 0%, #293141 51%, #546686 100%);
+    color: #fff !important;
+    border: 1px solid transparent !important;
+    text-shadow : none;
+    outline: none;
+}
+.introjs-nextbutton{
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#FFB434), color-stop(51%, #fe6828), to(#FFB434));
+    background-image: linear-gradient(to right, #FFB434 0%, #fe6828 51%, #FFB434 100%);
+    color: #fff !important;
+    border: 1px solid transparent !important;
+    text-shadow : none;
+    outline: none;
+}
+
+.introjs-skipbutton{
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#a3aab6), color-stop(51%, #677181), to(#a3aab6));
+    background-image: linear-gradient(to right, #a3aab6 0%, #677181 51%, #a3aab6 100%);
+    color: #fff !important;
+    border: 1px solid transparent !important;
+    text-shadow : none;
+    outline: none;
+}

@@ -1,0 +1,24 @@
+.cke_dialog_open {
+	overflow: hidden;
+}
+
+.cke_dialog_container {
+	position: fixed;
+	overflow-y: auto;
+	overflow-x: auto;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100100 !important;
+}
+.cke_dialog_container .cke_browser_quirks {
+    top: 0;
+    left: 0;
+    z-index: 100100 !important;
+}
+
+
+.cke_dialog_body {
+	position: relative;
+}

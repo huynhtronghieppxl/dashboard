@@ -1,0 +1,3298 @@
+
+
+/*
+* Manage-page
+*/
+#count-all-page-collect span {
+    font-size: 16px !important;
+    margin-left: -16px;
+}
+
+#manage-page-connect .modal-content {
+    box-shadow: unset;
+}
+
+#manage-page-connect .pd-16 {
+    padding: 16px;
+    min-height: 300px;
+}
+
+#manage-page-connect img:hover {
+    opacity: 1 !important;
+}
+
+.manage-page-container {
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.manage-page-header {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.manage-page-body {
+    width: 100%;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.manage-page-body-channel-social {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    margin-top: 8px;
+}
+
+.btn-manage-page {
+    display: flex;
+    min-width: 156px;
+    align-items: center;
+    border-radius: 4px;
+    height: 40px;
+    cursor: pointer;
+    padding-right: 12px;
+    position: relative;
+    justify-content: unset;
+}
+
+.manage-page-body-add-connect {
+    cursor: pointer;
+    font-size: 14px !important;
+    color: #0089ff;
+}
+
+.manage-page-body-card-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px 0;
+}
+
+.manage-page-body-card-item {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 4px 8px;
+    width: 100%;
+    position: relative;
+    box-shadow: 2px 2px 4px #00000026;
+    background-color: #fff;
+}
+
+.manage-page-body-card-item.active {
+    background: #ebf6ff;
+    box-shadow: 2px 2px 4px #00000026;
+}
+
+.manage-page-body-card-item:hover {
+    background: #ebf6ff;
+    box-shadow: 2px 2px 4px #00000026;
+}
+
+.manage-page-body-card-item-img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.manage-page-body-card-main-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+}
+
+.manage-page-body-card-item-info {
+    width: 100%;
+    height: auto;
+    margin-left: 12px;
+}
+
+.manage-page-body-card-item-status {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 16px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 16px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.manage-page-body-card-item-page-name {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 29px;
+    margin: 0 auto;
+    line-height: 26px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px !important;
+    font-weight: 600;
+    color: #212b35;
+}
+
+.manage-page-body-card-item-status-connect {
+    font-size: 12px !important;
+    color: #109f12;
+}
+
+.manage-page-body-card-checkbox-option {
+    position: absolute;
+    right: 4px;
+    bottom: 62px;
+}
+
+.manage-page-body-card-item-checkbox {
+    position: absolute;
+    right: -20px;
+    top: 4px;
+}
+
+.manage-page-body-connect-null-text{
+    width: 100%;
+    font-size: 16px !important;
+    font-weight: 400;
+    text-align: center;
+    margin: auto 0 !important;
+}
+
+.manage-page-body-card-checkbox-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: rgb(0, 137, 255);
+}
+
+.collect-all-option-item,
+.cancel-all-option-item {
+    color: #0089ff;
+    cursor: pointer;
+}
+
+#main-contain-list-page .manage-page-card-item {
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    border: 1px solid #E1E1E1;
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+    position: relative;
+}
+
+#main-contain-list-page .border-checkbox-section .border-checkbox-group {
+    position: absolute;
+    top: 8px;
+    right: -10px;
+    display: inline-block;
+}
+
+#main-contain-list-page .border-checkbox-section .border-checkbox {
+    display: none;
+}
+
+#main-contain-list-page .border-checkbox-section .border-checkbox-group .border-checkbox-label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 30px;
+    margin-right: 15px;
+}
+
+#main-contain-list-page .border-checkbox-section .border-checkbox-group-default .border-checkbox-label:before {
+    border: 2px solid red;
+}
+
+#main-contain-list-page .border-checkbox-section .border-checkbox-group .border-checkbox-label:before {
+    content: "";
+    display: block;
+    border: 2px solid #01a9ac;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+}
+
+#main-contain-list-page .border-checkbox-section .border-checkbox-group .border-checkbox-label:after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 12px;
+    opacity: 0.9;
+    border-right: 2px solid #eee;
+    border-top: 2px solid #eee;
+    position: absolute;
+    left: 4px;
+    top: 11px;
+    -webkit-transform: scaleX(-1) rotate(135deg);
+    transform: scaleX(-1) rotate(135deg);
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+}
+
+.manage-page-card-item-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    margin-left: 12px;
+}
+
+.manage-page-card-item-content {
+    margin-left: 12px;
+}
+
+.manage-page-card-item-content-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    color: #212b35;
+    font-size: 16px !important;
+}
+
+.manage-page-card-item-content-id {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #109f13;
+    font-size: 14px !important;
+}
+
+/*
+* dashboard-facebook-header
+*/
+.dashboard-facebook-header {
+    width: calc(100% + 10px);
+    margin-left: -5px;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    position: relative;
+}
+
+.dashboard-facebook-header-select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px 0 0;
+    width: 240px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    position: relative;
+}
+
+.dashboard-facebook-header-select-info {
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.dashboard-facebook-header-select-info span {
+    font-size: 14px !important;
+    color: #212b35;
+}
+
+.dashboard-facebook-header-select-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 12px;
+    border: 2px solid #e1e1e1;
+}
+
+.dashboard-facebook-header-select i {
+    font-size: 20px;
+    color: #212b35;
+}
+
+.dashboard-facebook-header-option {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 20px;
+    max-width: 500px;
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+    z-index: 9999;
+    border-bottom: 8px solid #f9a236;
+    transform-origin: 50px top;
+    animation: Growth 0.3s linear;
+}
+
+.dashboard-facebook-header-option-head {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.dashboard-facebook-header-option-head-title {
+    font-size: 16px;
+    color: #212b35;
+    font-weight: 500;
+}
+
+.dashboard-facebook-header-option-head-btn {
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #e5f3ff;
+    color: #0088ff;
+    padding: 7px 10px 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-facebook-header-option-head-btn i {
+    color: #0088ff;
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+.dashboard-facebook-header-option-search {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    position: relative;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.dashboard-facebook-header-option-search input {
+    width: 100%;
+    height: 34px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    padding: 8px 32px 8px 12px;
+}
+
+.dashboard-facebook-header-option-search i {
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+}
+
+.dashboard-facebook-header-option-body {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    min-height: 140px;
+    padding: 10px 15px;
+}
+
+.dashboard-facebook-header-option-list {
+    width: 100%;
+    height: auto;
+    max-height: 240px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.dashboard-facebook-header-option-list::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.dashboard-facebook-header-option-list::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+.dashboard-facebook-header-option-list::-webkit-scrollbar-thumb {
+    background-color: #c9c9c9;
+}
+
+.dashboard-facebook-header-option-item {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.dashboard-facebook-header-option-item.active {
+    background-color: #ebf6ff;
+    color: #fff;
+}
+
+.dashboard-facebook-header-option-item.active .dashboard-facebook-header-option-item-check i {
+    display: block;
+}
+
+.dashboard-facebook-header-option-item.active .dashboard-facebook-header-option-item-info img {
+    border: 2px solid #0088ff;
+}
+
+.dashboard-facebook-header-option-item:hover {
+    background-color: #ebf6ff;
+    color: #fff;
+}
+
+.dashboard-facebook-header-option-item-info {
+}
+
+.dashboard-facebook-header-option-item-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    border: 2px solid #e1e1e1;
+}
+
+.dashboard-facebook-header-option-item-info span {
+    font-size: 14px !important;
+    color: #212b35;
+}
+
+.dashboard-facebook-header-option-item-check {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-facebook-header-option-item-check i {
+    font-size: 20px;
+    color: #0089ff;
+    display: none;
+}
+
+.dashboard-facebook-header-option-footer {
+    padding: 0 15px 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-facebook-header-option-footer button {
+    border-radius: 30px;
+}
+
+.dashboard-facebook-header-option-footer-all span {
+    font-size: 14px !important;
+}
+
+.dashboard-facebook-header-option-footer-all-btn {
+    color: #1391ff;
+    cursor: pointer;
+}
+
+.dashboard-facebook-header-select-setting img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+}
+
+.dashboard-facebook-header-select-setting {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dashboard-facebook-header-select-setting-contain {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 12px;
+    z-index: 3;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 16%) 0 1px 4px;
+    background-color: #fff;
+    transform-origin: calc(100% - 50px) top;
+    animation: Growth 0.3s linear;
+}
+
+/* .dashboard-facebook-header-select-setting-contain::before {
+    border: solid transparent;
+    content: "";
+    border-color: transparent;
+    border-bottom-color: #ddd;
+    border-width: 9px;
+    position: absolute;
+    top: -18px;
+    right: 30px;
+} */
+
+.dashboard-facebook-header-select-setting-head {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 16px 8px;
+}
+
+.dashboard-facebook-header-select-setting-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+    margin-right: 12px;
+}
+
+.dashboard-facebook-header-select-setting-info span {
+    font-size: 14px !important;
+    color: #212b35;
+}
+
+.dashboard-facebook-header-select-setting-head i {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #e1e1e1;
+}
+
+.dashboard-facebook-header-select-setting-head-item {
+    height: 50px;
+    margin: 7px;
+    padding: 8px 15px 8px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dashboard-facebook-header-select-setting-head-item:hover {
+    background-color: #eef9ed;
+    cursor: pointer;
+}
+
+.dashboard-facebook-header-select-setting-head-item.active {
+    background-color: #eef9ed;
+}
+
+.dashboard-facebook-header-select-setting-head-item.active span,
+.fa.fa-shield {
+    color: #109f12;
+}
+
+.dashboard-facebook-header-select-setting-head-item i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.dashboard-facebook-header-select-setting-head-text {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+* Dashboard-facebook-page
+*/
+.dashboard-facebook-container {
+    width: calc(100% + 10px);
+    height: calc(100vh - 108px);
+    margin-left: -5px;
+    display: flex;
+    background: radial-gradient(rgb(221 185 166 / 61%) 31%, rgb(221 185 166 / 61%) 31%, #d2e3ea99 100%);
+}
+
+/*
+* Dashboard-facebook-page-left
+*/
+.dashboard-facebook-left {
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    border-right: 1px solid #dfdfdf;
+}
+
+.dashboard-facebook-filter {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: -12px;
+}
+
+.dashboard-facebook-filter-checkbox {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-checkbox-section-custom {
+    position: relative;
+    left: 10px;
+    top: 6px;
+}
+
+.dashboard-facebook-filter-search {
+    flex: 1;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-facebook-filter-search input {
+    width: 100%;
+    height: 30px;
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #212b35;
+    padding-left: 10px;
+    border-radius: 30px;
+    padding-right: 28px;
+}
+
+.dashboard-facebook-filter-search i {
+    position: absolute;
+    right: 10px;
+}
+
+.dashboard-facebook-filter-action {
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.dashboard-facebook-filter-action i:first-child {
+    font-size: 20px;
+    color: #959595;
+    margin-right: 12px;
+}
+
+.dashboard-facebook-filter-action i:last-child {
+    font-size: 16px;
+    color: #959595;
+    margin-right: 4px;
+}
+
+.dashboard-facebook-filter-action-list {
+    position: absolute;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 16%) 0 1px 4px;
+    padding: 8px 0;
+    z-index: 9;
+}
+
+.dashboard-facebook-filter-action-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 4px 8px;
+}
+
+.dashboard-facebook-filter-action-item:hover{
+    background-color: #eef9ed;
+}
+
+.dashboard-facebook-filter-action-left {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-facebook-filter-action-left i {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.dashboard-facebook-filter-action-left span {
+    font-size: 14px;
+    color: #212b35;
+}
+
+/* conversation filter */
+.dashboard-facebook-conversation-filter-nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #dfdfdf;
+}
+
+.dashboard-facebook-conversation-filter-nav .nav-item:hover {
+    cursor: pointer;
+    color: #0072bc;
+}
+
+.dashboard-facebook-conversation-filter-nav .slide {
+    display: none;
+}
+
+.dashboard-facebook-conversation-filter-nav .nav-link.active ~ .slide {
+    display: block;
+}
+
+/*
+* list conversation
+*/
+.dashboard-facebook-conversation-filter-list {
+    list-style: none;
+    width: 100%;
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.dashboard-facebook-conversation-filter-list::-webkit-scrollbar {
+    display: none;
+}
+
+.dashboard-facebook-conversation-filter-item {
+    width: 100%;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    position: relative;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dashboard-facebook-conversation-filter-item.active {
+    border-right: 4px solid #4697fe;
+    background-color: #f3f3f3;
+}
+
+.dashboard-facebook-conversation-filter-item:hover {
+    background-color: #f3f3f3;
+}
+
+.dashboard-facebook-conversation-filter-item.active .dashboard-facebook-conversation-filter-main-img {
+    border: 2px solid #4697fe !important;
+}
+
+.dashboard-facebook-conversation-filter-avatar {
+    margin: 8px;
+    width: 50px;
+    position: relative;
+}
+
+.dashboard-facebook-conversation-filter-main-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+    object-fit: cover;
+}
+
+.dashboard-facebook-conversation-filter-sub-img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -6px;
+    right: 4px;
+}
+
+.dashboard-facebook-conversation-filter-info {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 8px;
+}
+
+.dashboard-facebook-conversation-filter-info .option {
+    position: absolute;
+    top: 11px;
+    right: 18px;
+    background: linear-gradient(to right, #fe5d70, #fe909d);
+    border-radius: 50%;
+    padding: -7px;
+    max-height: 20px;
+    min-width: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.dashboard-facebook-conversation-filter-name {
+    width: 100%;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-facebook-conversation-filter-name-text {
+    height: 35px;
+    overflow: hidden;
+    line-height: 25px;
+    font-size: 14px !important;
+    color: #212b35;
+    font-weight: 500;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    max-width: 80%;
+}
+
+.dashboard-facebook-conversation-filter-time {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    width: 100px;
+    font-size: 12px;
+    color: #212b35;
+    text-align: right;
+    padding-right: 8px;
+}
+
+.dashboard-facebook-conversation-filter-message {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.dashboard-facebook-conversation-filter-message i {
+    margin-right: 4px;
+    color: rgb(15, 142, 254);
+}
+
+.dashboard-facebook-conversation-filter-message-main p {
+    font-size: 13px !important;
+    color: #212b35;
+    margin-right: 4px;
+    width: 80% !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+}
+
+.dashboard-facebook-conversation-filter-message-main {
+    width: 216px;
+}
+
+.dashboard-facebook-conversation-filter-label {
+    max-width: 95px;
+    min-width: 50px;
+    border-radius: 4px;
+    background-color: #4697fe;
+    color: #fff;
+    padding: 0 4px;
+    text-align: center;
+}
+
+.dashboard-facebook-conversation-filter-label label {
+    margin-bottom: 0 !important;
+    height: 16px;
+    overflow: hidden;
+    line-height: 16px;
+    font-size: 12px !important;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+/*
+* Dashboard-facebook-page-body
+*/
+.dashboard-facebook-body {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.dashboard-facebook-body-head {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.dashboard-facebook-body-head-left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-facebook-body-head-left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #e1e1e1;
+    margin-right: 12px;
+}
+
+.dashboard-facebook-body-head-info {
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard-facebook-body-head-name {
+    max-width: 100%;
+    min-width: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #212b35;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: 50px;
+    -webkit-box-orient: vertical;
+    white-space: nowrap;
+    width: 100%;
+    overflow-wrap: break-word;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: inherit;
+    -webkit-box-pack: center;
+    -webkit-line-clamp: 1;
+    margin-bottom: 4px;
+}
+
+.dashboard-facebook-body-head-right {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dashboard-facebook-body-head-right-filter {
+    width: 50px;
+    height: 25px;
+    border-radius: 30px;
+    border: 1px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.dashboard-facebook-body-head-right-filter i::after {
+    display: none;
+}
+
+.dashboard-facebook-body-head-right i {
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.dashboard-facebook-body-head-right i::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    transform: scale(0);
+    transition: all 0.1s ease-in-out;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: -1;
+}
+
+.dashboard-facebook-body-head-right i:hover {
+    cursor: pointer;
+    color: rgb(0, 137, 255);
+}
+
+.dashboard-facebook-body-head-right i:hover::after {
+    transform: scale(1);
+}
+
+.dashboard-facebook-body-pin {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    padding: 8px;
+    display: flex;
+    z-index: 999;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.dashboard-facebook-body-pin-text {
+    font-style: italic;
+    font-size: 13px;
+    color: rgb(167, 167, 167);
+    max-width: 100%;
+    min-width: 50px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: 50px;
+    -webkit-box-orient: vertical;
+    white-space: nowrap;
+    width: 100%;
+    overflow-wrap: break-word;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: inherit;
+    -webkit-box-pack: center;
+    -webkit-line-clamp: 1;
+    margin-bottom: 4px;
+}
+/* chat body */
+.dashboard-facebook-body-chat {
+    width: 100%;
+    height: calc(100vh - 230px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+/* Css body chat **************************************************************************************/
+.bdrd-4 {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#header-visible-message::-webkit-scrollbar:hover, ::-webkit-scrollbar-thumb:hover {
+    width: 4px !important;
+    height: 4px !important;
+}
+
+.dashboard-facebook-body-chat::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.dashboard-facebook-body-chat::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+}
+
+.dashboard-facebook-body-chat::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    box-shadow: unset;
+}
+
+.dashboard-facebook-body-chat.scroll::-webkit-scrollbar-thumb {
+    background-color: rgb(128, 125, 125);
+}
+
+.body-visible-message {
+    flex: 1;
+    position: relative;
+    background: radial-gradient(rgb(221 185 166 / 61%) 31%, rgb(221 185 166 / 61%) 31%, #d2e3ea99 100%);
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.body-visible-message.column-flex {
+    flex-direction: column !important;
+    padding-top: 60px;
+}
+
+.body-visible-message .chat-body-message-main {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#data-message-visible-message {
+    width: 100%;
+    /*padding-top: 50px;*/
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* khung chat của 1 người */
+.body-visible-message .chat-body-message-element {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.body-visible-message .chat-body-message-element.message-right {
+    margin-top: 10px;
+}
+
+.body-visible-message .chat-body-message-element.message-right .chat-body-message {
+    min-width: 165px;
+}
+
+.body-visible-message .chat-body-message-element.message-left {
+    margin-top: 40px;
+}
+
+.chat-body-message-element .chat-body-message-element-avatar {
+    position: relative;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    /*margin-left: 10px;*/
+    border: 1px solid #c2c2c2;
+    bottom: 20px;
+}
+
+.body-visible-message .chat-body-message-element-name-text {
+    font-size: 13px !important;
+    color: #394E60;
+    position: absolute;
+    bottom: calc(100% + 4px);
+    left: 50px;
+}
+
+/* body message */
+.body-visible-message .chat-body-message {
+    max-width: 75%;
+    min-width: 150px;
+    min-height: 40px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
+    position: relative;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0 1px 0; */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px 0; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0 0 0 1px inset; */
+}
+
+.body-visible-message img {
+    opacity: 1 !important;
+}
+
+.body-visible-message .chat-body-message-element.message-right {
+    flex-direction: row-reverse;
+}
+
+.body-visible-message .message-right .chat-body-message {
+    /*margin-right: 20px;*/
+    border-top-right-radius: 4px;
+    animation: slideRight 0.4s cubic-bezier(.4, 0, .2, 1);
+    background-color: #dbf4fb;
+    color: #001A33;
+}
+
+.body-visible-message .message-left .chat-body-message {
+    margin-left: 10px;
+    border-top-left-radius: 4px;
+    animation: slideLeft 0.4s cubic-bezier(.4, 0, .2, 1);
+    background-color: #e4e6eb;
+    color: #001A33;
+}
+
+/* content message */
+/* Message text */
+.body-visible-message .chat-body-message-text {
+    font-size: 14px !important;
+    color: #001A33;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+    padding: 8px 8px 0 8px;
+    word-break: break-word;
+}
+
+.body-visible-message .chat-body-message-text span {
+    font-size: 14px;
+    color: #4390ff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.body-visible-message .chat-body-message-item-reply-text span {
+    font-size: 14px !important;
+    color: #3a6eb2;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* image message */
+.body-visible-message .chat-body-message-image {
+    font-size: 14px !important;
+    color: #001A33;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+    padding: 0;
+}
+
+.body-visible-message .chat-body-message-image img {
+    height: 100%;
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    transition: transform .5s, filter .5s;
+}
+
+/*.body-visible-message .message-left .chat-body-message-image img {*/
+/*    border-radius: 4px 13px 0 0;*/
+/*}*/
+
+/*.body-visible-message .message-right .chat-body-message-image img {*/
+/*    border-radius: 8px 4px 0 0;*/
+/*}*/
+
+/* Grid image */
+.body-visible-message .wrapper {
+    max-width: 100%;
+    min-width: 200px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 0;
+}
+
+.body-visible-message .gallery__link {
+    position: relative;
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.body-visible-message .gallery__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: transform .5s, filter .5s;
+    border-radius: 4px;
+}
+
+.body-visible-message .gallery__link:hover .gallery__image {
+    transform: scale(1.2);
+}
+
+.body-visible-message .more-photos {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 1;
+}
+
+.body-visible-message .more-photos::after {
+    background: rgba(128, 128, 128, 0.7) none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.body-visible-message .more-photos > span {
+    font-size: 24px !important;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+/* 2 image */
+.body-visible-message .wrapper.two-image .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 60px);
+    gap: 4px;
+}
+
+.body-visible-message .wrapper.two-image .gallery__item--1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 4;
+}
+
+.body-visible-message .wrapper.two-image .gallery__item--2 {
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 4;
+}
+
+/* 3 image */
+.body-visible-message .wrapper.three-image .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 60px);
+    gap: 4px;
+}
+
+.body-visible-message .wrapper.three-image .gallery__item--1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 4;
+}
+
+.body-visible-message .wrapper.three-image .gallery__item--2 {
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.body-visible-message .wrapper.three-image .gallery__item--3 {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 2;
+}
+
+/* 3 ảnh version 2 */
+.body-visible-message .wrapper.three-image-other .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 60px);
+    gap: 4px;
+}
+
+.body-visible-message .wrapper.three-image-other .gallery__item--1 {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 2;
+}
+
+.body-visible-message .wrapper.three-image-other .gallery__item--2 {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2;
+}
+
+.body-visible-message .wrapper.three-image-other .gallery__item--3 {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 2;
+}
+
+/* 4 ảnh */
+.body-visible-message .wrapper.four-image .gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 65px);
+    gap: 4px;
+}
+
+.body-visible-message .wrapper.four-image .gallery__item--1 {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 2;
+}
+
+.body-visible-message .wrapper.four-image .gallery__item--2 {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2;
+}
+
+.body-visible-message .wrapper.four-image .gallery__item--3 {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 2;
+}
+
+.body-visible-message .wrapper.four-image .gallery__item--4 {
+    grid-column: 5 / span 2;
+    grid-row: 3 / span 2;
+}
+
+/* 4 ảnh version 2*/
+.body-visible-message .wrapper.four-image-other .gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 40px);
+    gap: 4px;
+}
+
+.body-visible-message .wrapper.four-image-other .gallery__item--1 {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 6;
+}
+
+.body-visible-message .wrapper.four-image-other .gallery__item--2 {
+    grid-column: 5 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.body-visible-message .wrapper.four-image-other .gallery__item--3 {
+    grid-column: 5 / span 2;
+    grid-row: 3 / span 2;
+}
+
+.body-visible-message .wrapper.four-image-other .gallery__item--4 {
+    grid-column: 5 / span 2;
+    grid-row: 5 / span 2;
+}
+
+/* 5 ảnh trở lên */
+.body-visible-message .wrapper.five-image .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 50px);
+    gap: 4px;
+}
+
+.body-visible-message .wrapper.five-image .gallery__item--1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 3;
+}
+
+.body-visible-message .wrapper.five-image .gallery__item--2 {
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 3;
+}
+
+.body-visible-message .wrapper.five-image .gallery__item--3 {
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.body-visible-message .wrapper.five-image .gallery__item--4 {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 2;
+}
+
+.body-visible-message .wrapper.five-image .gallery__item--5 {
+    grid-column: 3 / span 2;
+    grid-row: 5 / span 2;
+}
+
+.body-visible-message .chat-body-message-footer {
+    width: 100%;
+    height: auto;
+    min-height: 20px;
+    padding-top: 0;
+    position: relative;
+    display: flex;
+    margin-bottom: 15px;
+    padding: 0 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-visible-message .time-message-ago {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 11px !important;
+    display: block;
+    position: relative;
+    top: 4px;
+}
+
+.body-visible-message .message-left .chat-body-message-footer {
+    flex-direction: row-reverse;
+}
+
+.body-visible-message .message-right .chat-body-message-footer {
+    margin-right: 8px;
+}
+
+
+/* input */
+.dashboard-facebook-body-input {
+    width: 100%;
+    min-height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    border-top: 1px solid #e1e1e1;
+}
+
+.message-facebook {
+    background-color: #fff;
+    width: 100%;
+    max-height: 165px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    transform-origin: 0 0;
+    box-shadow: none;
+    align-items: flex-end;
+    padding: 8px 0;
+}
+
+.message-facebook-button {
+    border-radius: 100rem;
+    border: none;
+    background: #2e2e2e;
+    min-width: 40px;
+    min-height: 40px;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    outline: 0 solid transparent;
+    vertical-align: center;
+    transition: transform 0.3s ease-in-out;
+    z-index: 10;
+}
+
+.message-facebook-button:after {
+    outline: 0;
+}
+.message-facebook-button:hover svg {
+    transform: scale(0.9);
+    color: #468af3;
+}
+.message-facebook-button:hover:after {
+    transform: scale(1);
+}
+.message-facebook-button svg {
+    color: #ffffff;
+    z-index: 2;
+    position: relative;
+    transform: scale(1);
+    transition: 0.4s ease;
+    vertical-align: middle;
+}
+.message-facebook .rotate-180 {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.message-facebook-textarea {
+    transition: 0.4s ease;
+    background: #e3e5e7;
+    border: none;
+    border-radius: 20px;
+    width: calc(100% - 90px);
+    color: #050505;
+    letter-spacing: 1.3px;
+    margin-left: auto;
+    padding: 10px 45px 10px 20px;
+    display: block;
+    justify-content: right;
+    z-index: 999;
+    outline: 0 solid transparent;
+    resize: none;
+    height: 46px;
+    max-height: 135px;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-y: auto;
+    font-size: 16px;
+}
+
+.message-facebook-textarea[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: #555;
+}
+
+.message-facebook-textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+}
+
+.message-facebook-textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.message-facebook-textarea::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+.message-facebook-textarea::placeholder {
+    color: #858585;
+    font-size: 17px;
+}
+
+.message-facebook-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.4s ease;
+    padding: 8px;
+}
+
+.message-facebook-menu li {
+    position: relative;
+    top: 4px;
+}
+
+.message-facebook-menu .icon-menu-1 {
+    animation: zoom-out 0.3s linear;
+}
+
+.message-facebook-menu .icon-menu-2 {
+    animation: zoom-out 0.2s linear;
+}
+
+.message-facebook-menu .icon-menu-3 {
+    animation: zoom-out 0.1s linear;
+}
+
+.message-facebook-menu.active .icon-menu-1 {
+    animation: zoom-in 0.1s linear;
+}
+
+.message-facebook-menu.active .icon-menu-2 {
+    animation: zoom-in 0.2s linear;
+}
+
+.message-facebook-menu.active .icon-menu-3 {
+    animation: zoom-in 0.3s linear;
+}
+
+.dashboard-facebook-conversation-filter-item .notifycation {
+    width: 20px;
+    height: 20px;
+}
+
+.message-facebook-options .message-facebook-textarea {
+    transition: 0.4s ease;
+    width: calc(100% - 240px);
+    position: relative;
+    display: flex;
+    justify-content: left;
+    z-index: 2;
+    outline: 0 solid transparent;
+    resize: none;
+    word-break: break-all;
+    min-height: 46px;
+}
+
+.message-facebook-options .message-facebook-menu {
+    transform: rotate(0);
+    transition: 0.4s ease;
+    opacity: 1;
+    z-index: 1;
+}
+.message-facebook .submit {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2px;
+}
+.message-facebook .submitbutton {
+    display: inline-flex;
+    padding: 0;
+    color: #468af3;
+    min-width: 30px;
+    min-height: 30px;
+    right: 38px;
+    top: -3px;
+    background: transparent;
+    border-radius: 100rem;
+    border: none;
+    justify-content: right;
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+    transition: 0.3s ease;
+    z-index: 2;
+}
+.message-facebook .submitbutton:disabled,
+.message-facebook .submitbutton[disabled] {
+    opacity: 0.3;
+    transition: 0.3s ease;
+    cursor: default;
+}
+
+/*comment page facebook*/
+.section-comment-message-main {
+    width: 100%;
+    min-height: 40px;
+    height: auto;
+    position: relative;
+}
+
+.section-comment-message-main-contain {
+    display: flex;
+    width: auto;
+    min-height: 40px;
+    height: auto;
+    max-width: 70%;
+    position: relative;
+}
+
+.section-comment-message-info {
+    max-width: 70%;
+    min-width: 15%;
+    min-height: 40px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #00000040;
+    border-radius: 4px;
+    padding: 8px;
+    position: relative;
+}
+
+.section-comment-message-info-name {
+    font-weight: 600;
+    color: #212b35;
+    max-width: 100%;
+    display: block;
+    word-break: break-all;
+    display: -webkit-box;
+    height: 18px;
+    font-size: 14px;
+    line-height: 1.3;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+}
+
+.section-comment-message-info-text {
+    max-width: 100%;
+    display: block;
+    word-break: break-all;
+    display: -webkit-box;
+    height: 16px;
+    font-size: 13px;
+    line-height: 1.3;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.section-comment-message-avatar-main {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e2e2e2;
+    margin-right: 10px;
+}
+
+.section-comment-message-avatar-reply {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #e2e2e2;
+    margin-right: 10px;
+}
+
+.section-comment-message-reply {
+    display: flex;
+    width: auto;
+    min-height: 40px;
+    height: auto;
+    margin-left: 4%;
+    margin-top: 12px;
+    max-width: 66%;
+    position: relative;
+}
+
+.section-comment-message-main.chat-of-me .section-comment-message-info, .section-comment-message-reply.chat-of-me .section-comment-message-info  {
+    background-color: #0088FF !important;
+    color: #fff !important;
+}
+
+.section-comment-message-main.chat-of-me .section-comment-message-info-name, .section-comment-message-reply.chat-of-me .section-comment-message-info-name  {
+    color: #fff !important;
+}
+
+.section-comment-message-image-reply {
+    width: 50%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.section-comment-message-info-tool {
+    display: flex;
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    left: calc(100% + 8px);
+    top: 42%;
+}
+
+.section-comment-message-info-tool-item {
+    color: #959595;
+    font-size: 16px;
+}
+
+.section-comment-message-info-reply-input {
+    margin-left: 4%;
+    margin-top: 8px;
+    max-width: 50%;
+    position: relative;
+}
+
+.section-comment-message-info-reply-input input {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #65676B;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.section-comment-message-info-reply-input-tool {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-comment-message-info-reply-input-tool i {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.dashboard-facebook-right-booking-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 100px;
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoom-in  {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes zoom-out  {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/*
+* Dashboard-facebook-page-right
+*/
+.dashboard-facebook-right {
+    width: 350px;
+    height: 100%;
+    border-left: 1px solid #e1e1e1;
+    background: #fff;
+}
+
+.dashboard-facebook-right-header {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.dashboard-facebook-right-header.list-booking {
+    height: 60px;
+}
+
+.dashboard-facebook-right-header-avatar {
+    width: 60px;
+    height: auto;
+    margin: 8px;
+    position: relative;
+}
+
+.dashboard-facebook-right-header-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+}
+
+.dashboard-facebook-right-header-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -4px;
+    color: #f9a236;
+    background-color: #fff;
+    right: 0;
+}
+
+.dashboard-facebook-right-header-icon i {
+    font-size: 30px;
+}
+
+.dashboard-facebook-right-header-info {
+    width: 100%;
+}
+
+#phone-number-customer-label {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+    margin-bottom: 0 !important;
+}
+
+.dashboard-facebook-right-header-name,
+.dashboard-facebook-right-header-phone {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-facebook-right-header-name i,
+.dashboard-facebook-right-header-phone i {
+    font-size: 16px !important;
+    color: #5d64749e;
+    cursor: pointer;
+    right: -20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-facebook-right-header-phone i:hover {
+    background-color: #dfdfdf;
+    color: rgb(15, 142, 254);
+}
+
+#phone-number-customer-restaurant {
+    width: 100%;
+    border-radius: 8px;
+    border: 0.5px solid #dfdfdf;
+    outline: none;
+    padding: 3px 8px;
+}
+
+.dashboard-facebook-right-header-name span {
+    height: 16px;
+    overflow: hidden;
+    line-height: 16px;
+    font-size: 14px !important;
+    color: #212b35;
+    font-weight: 500;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.dashboard-facebook-right-header-phone {
+    margin-top: 4px;
+}
+
+.dashboard-facebook-right-option {
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    margin-top: 8px;
+    padding: 8px 4px 8px 12px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.dashboard-facebook-right-option-left {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-facebook-right-option-left span {
+    font-size: 14px !important;
+    color: #212b35;
+    margin-left: 8px;
+}
+
+.dashboard-facebook-right-option i {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #c1bfbf;
+    text-align: center;
+}
+
+.dashboard-facebook-right-option:hover {
+    cursor: pointer;
+}
+
+.dashboard-facebook-right-option:hover .dashboard-facebook-right-option i {
+    color: #4697fe;
+}
+
+/*dropdown about*/
+.dropdown-box-about {
+    width: 100%;
+    height: 0;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.dropdown-box-about .opener {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.dropdown-box-about .opener:hover .fa.fa-plus-circle {
+    color: #0084ff;
+}
+
+.dropdown-box-about .opener i,
+.dropdown-box-about h1 {
+    font-size: 20px;
+    transition: 0.5s ease;
+    color: #c1bfbf;
+}
+
+.dropdown-box-about .rotate {
+    transform: rotate(225deg);
+}
+
+.dropdown-box-about .content {
+    width: 100%;
+    min-height: 0;
+    max-height: 0;
+    border-bottom: 1px solid #dfdfdf;
+    overflow: hidden;
+    padding: 0 12px 0 8px;
+    transition: 0.5s ease;
+}
+
+.dropdown-box-about .content-active {
+    padding: 10px 12px 10px 8px;
+    max-height: 600px;
+    min-height: 100px;
+    transition: 0.5s ease;
+}
+
+#order-booking-facebook.content-active {
+    max-height: 270px !important;
+}
+
+/*Slide ảnh*/
+.dashboard-facebook-right .slider-img-about {
+    position: relative;
+    top: 0;
+    left: -4px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7em;
+    margin: 11px 0;
+    overflow: hidden;
+}
+
+.dashboard-facebook-right .slider-img-about .prev-img {
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 50%);
+    background: #ebebeb;
+    top: 29px;
+    left: 31px;
+}
+
+.dashboard-facebook-right .slider-img-about .next-img {
+    right: 18px;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 50%);
+    background: #ebebeb;
+    top: 29px;
+}
+
+.dashboard-facebook-right .slider-img-about .resource-slider-frame-img {
+    position: absolute;
+    top: 0;
+    left: 1em;
+    right: 0.75em;
+    bottom: 0;
+    border-left: 1.25em solid transparent;
+    border-right: 2em solid transparent;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.dashboard-facebook-right .slider-img-about .resource-slider-item-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+}
+
+.dashboard-facebook-right .slider-img-about .resource-slider-inset-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.dashboard-facebook-right .slider-img-about .item-box {
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.dashboard-facebook-right .item-box {
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.dashboard-facebook-right .slider-img-about .item-box > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard-facebook-right .strip {
+    position: relative;
+}
+
+.dashboard-facebook-right .slider-img-about .item-box > a img {
+    border-radius: 0;
+    border: 1px solid #d5d6d9;
+    transition: all 0.2s linear 0s;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.dashboard-facebook-right .see-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 32px;
+    width: 290px;
+    font-size: 12px !important;
+    background-color: var(--background-color);
+    color: #505050;
+    transition: all .3s ease;
+    position: relative;
+    bottom: -6px;
+    border-radius: 8px;
+    font-weight: 500;
+    left: 6px;
+    margin: 12px;
+}
+
+@keyframes Growth {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.dashboard-facebook-conversation-message-snippet{
+    width: 200px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+/*Booking cart*/
+#list-booking-right-bar .md-tabs .nav-item {
+    width: calc(100% / 3);
+    text-align: center;
+    max-width: 100%;
+    margin: 0 !important;
+}
+
+#list-booking-right-bar .nav.nav-tabs.md-tabs{
+    width: 100%;
+    padding: 8px 0;
+}
+
+#list-booking-right-bar label {
+    padding: 4px !important;
+}
+
+.cart-booking-item-about {
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    padding: 8px;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.cart-booking-item-about-header {
+    height: 25px;
+    width: 100%;
+}
+
+.cart-booking-item-about-header-name {
+    max-width: 66%;
+    font-weight: 600;
+    color: #08f;
+    display: block;
+    word-break: break-all;
+    display: -webkit-box;
+    height: 18px;
+    font-size: 14px;
+    line-height: 1.3;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+}
+
+.cart-booking-item-about-header-status {
+    max-width: 34%;
+}
+
+.cart-booking-item-about-header-status.waiting-confirm .cart-booking-item-about-header-status-text {
+    color: #ffa233;
+}
+
+.cart-booking-item-about-header-status.set-up .cart-booking-item-about-header-status-text {
+    color: #868e96;
+}
+
+.cart-booking-item-about-header-status.waiting-customer .cart-booking-item-about-header-status-text {
+    color: #0072bc;
+}
+
+.cart-booking-item-about-body {
+    width: 100%;
+    height: auto;
+}
+
+.cart-booking-item-about-info {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.cart-booking-item-about-phone {
+    width: 50%;
+    height: 16px;
+}
+
+.cart-booking-item-title {
+    color: #4f4f4f;
+    font-weight: 600;
+}
+
+/* List booking */
+.dashboard-facebook-right-header-title span {
+    font-size: 16px !important;
+    font-weight: 500;
+    color: #001a33;
+    width: 100%;
+}
+
+.dashboard-facebook-right-header-close {
+    left: 10px;
+}
+
+.dashboard-facebook-right-header-close i {
+    font-size: 20px !important;
+    cursor: pointer;
+    color: #23d2e2 !important;
+}
+
+.dashboard-facebook-right-container {
+    width: 100%;
+    height: 92%;
+    overflow: auto;
+    padding: 10px 10px 0 10px;
+}
+
+/*POST COMMENT FB*/
+.chat-body-message-post{
+    max-width: 600px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: white;
+    height: auto;
+    margin:0 auto;
+}
+.chat-body-message-post-header-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+.chat-body-message-post-header .customize-img{
+    width: 45px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+.chat-body-message-post-header-detail-time{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    margin-left: 10px;
+}
+.chat-body-message-post-header-detail-time h6{
+    font-size: 16px !important;
+    font-weight: 500;
+    cursor: pointer;
+}
+.chat-body-message-post-header-detail-time span{
+    display: block;
+    margin-top: 5px;
+    color: rgb(23,99,207);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.chat-body-message-post-header-detail-time .chat-body-message-post-header-detail-date{
+    color: rgb(23,99,207);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.chat-body-message-post-header-detail-time .chat-body-message-post-header-detail-date:hover{
+    text-decoration: underline;
+}
+
+.chat-body-message-post-header-detail-time span i{
+    color: black;
+    font-size: 15px;
+}
+
+.chat-body-message-post-header-detail-setting{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 0;
+    background: white;
+}
+.chat-body-message-post-header-detail-setting:focus{
+    box-shadow: none !important;
+}
+.chat-body-message-post-header-detail-setting:hover{
+    background: rgba(0,0,0,0.3) ;
+}
+.chat-body-message-post-header-detail-setting::after{
+    display: none;
+}
+.chat-body-message-post-header-detail-setting i{
+    color: black;
+    font-size: 18px;
+    margin:0 !important;
+    line-height: 40px;
+}
+.chat-body-message-post-header-content p{
+    padding-bottom: 16px;
+    font-size: 30px !important;
+}
+
+.chat-body-message-post-header-page-interactive{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    color:rgb(101,103,107);
+}
+
+.chat-body-message-post-header-page-interactive a:hover{
+    text-decoration: underline;
+    color:rgb(101,103,107);
+}
+
+.chat-body-message-post-header-page-interactive-reaction a{
+    margin-left: 5px;
+}
+
+.chat-body-message-post-header-page-action{
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    padding:2px 0;
+}
+
+.chat-body-message-post-header-page-action .dropdown{
+    display: inline-block;
+}
+
+.chat-body-message-post-header-page-action button{
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 140px;
+    height: 35px;
+    padding: 0 2px;
+    cursor: pointer;
+    color: rgb(101,103,107);
+    font-size: 15px;
+    font-weight: 500;
+}
+.chat-body-message-post-header-page-action button i{
+    margin-right: 5px;
+}
+.chat-body-message-post-header-page-action button:focus{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+.chat-body-message-post-header-page-action button:hover{
+    background: rgba(0,0,0,0.1);
+}
+.chat-body-message-post-header-page-action .row{
+    justify-content: space-evenly;
+}
+.chat-body-message-post-header-page-action .dropdown button{
+    width: 50px;
+    border: none;
+}
+
+.chat-body-message-post-header-page-action .dropdown button::after{
+    color:black;
+    font-size: 16px;
+}
+.chat-body-message-post-header-page-action .dropdown img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+.chat-body-message-post-header-page-action .dropdown button:hover{
+    border:none;
+    background: rgba(0,0,0,0.1);
+}
+.chat-body-message-post-header-page-action .dropdown button:focus{
+    box-shadow: none;
+    background: transparent;
+}
+.chat-body-message-custom-dropdown{
+    left: -277px !important;
+}
+
+.chat-body-message-login-dropdown{
+    width: 250px;
+}
+
+.chat-body-message-login-dropdown{
+    width: 250px;
+    left: -197px !important;
+}
+
+.chat-body-message-login-dropdown h4{
+    font-size: 20px;
+    color: black;
+    margin-bottom:0;
+}
+.chat-body-message-login-dropdown p{
+    border-bottom:1px solid rgb(101,103,107);
+    padding:5px 0 !important;
+    margin:0 10px !important;
+}
+
+.chat-body-message-login-dropdown .dropdown-item img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.chat-body-message-post-main-comment-suitable{
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.chat-body-message-post-main-comment-suitable .dropdown button{
+    font-size: 14px;
+    font-weight: 500;
+    background: none;
+    padding: 0;
+}
+.chat-body-message-post-main-comment-suitable .dropdown button:focus{
+    outline: none;
+    box-shadow: none;
+}
+.chat-body-message-post-main-comment-filter{
+    left: -228px !important;
+}
+.chat-body-message-post-main-comment-dropdown {
+    width: 330px;
+    cursor:pointer;
+    padding:5px 15px;
+}
+.chat-body-message-post-main-comment-dropdown:hover{
+    background: rgba(101,103,107,0.3);;
+}
+.chat-body-message-post-main-comment-dropdown h4{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.chat-body-message-post-main-input{
+    justify-content: space-evenly;
+}
+.chat-body-message-post-main-input img{
+    width: 46px;
+    height: 46px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.chat-body-message-post-main-input .comment-facebook-textarea{
+    transition: 0.4s ease;
+    background: #e3e5e7;
+    border: none;
+    border-radius: 20px;
+    width: calc(100% - 90px);
+    color: #555555;
+    font-size: 1rem;
+    letter-spacing: 1.3px;
+    padding: 10px 0 10px 20px;
+    display: block;
+    justify-content: right;
+    z-index: 0;
+    outline: 0 solid transparent;
+    resize: none;
+    height: 46px;
+    max-height: 150px;
+    box-sizing: border-box;
+    font-size: 17px;
+    overflow: hidden;
+    font-family: "San Francisco";
+    overflow-y: auto;
+    position: relative;
+}
+.chat-body-message-post-main-input-emoji{
+    /*position: absolute;*/
+    /*right: 8px;*/
+    /*bottom: 10px;*/
+    width: 120px !important;
+    text-align: right !important;
+    margin: auto 9px auto 0 !important;
+}
+.chat-body-message-post-main-input-emoji i{
+    font-size: 18px;
+    margin:0 3px;
+}
+
+.chat-body-message-form-controll-comment{
+    background: #e3e5e7;
+    border-radius: 20px;
+    width: 506px;
+}
+
+.chat-body-message-comment-user img{
+    width: 46px;
+    height: 46px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.chat-body-message-comment-detail{
+    background: rgba(240,242,245);
+    border-radius: 15px;
+    margin-left: 11px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.chat-body-message-comment-detail p{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.chat-body-message-comment-detail .chat-body-message-comment-detail-name-user{
+    font-size: 12px !important;
+    font-weight: 500;
+    color: rgb(101,103,107);
+    padding-top: 0;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+.chat-body-message-comment-detail .chat-body-message-comment-detail-name-user:hover{
+    text-decoration: underline;
+}
+
+.chat-body-message-comment-detail .chat-body-message-comment-detail-name-page{
+    font-size: 15px !important;
+    font-weight: 500;
+    color: black;
+    padding-top: 0;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+.chat-body-message-comment-detail .chat-body-message-comment-detail-name-page:hover{
+    text-decoration: underline;
+}
+
+.chat-body-message-comment-detail .chat-body-message-comment-detail-content{
+    font-size: 16px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.chat-body-message-comment-user .chat-body-message-comment-control-action p{
+    margin-left: 21px !important;
+    cursor: pointer;
+}
+
+.chat-body-message-comment-user .chat-body-message-comment-control-action p:hover{
+    text-decoration: underline;
+}
+
+.chat-body-message-post-main-comment .chat-body-message-comment-title-show-more{
+    color: rgb(101,103,107);
+    font-size: 16px !important;
+    cursor: pointer;
+}
+
+.chat-body-message-post-main-comment .chat-body-message-comment-title-show-more:hover{
+    text-decoration: underline;
+}
+
+.chat-body-message-comment-user .chat-body-message-comment-btn-rep{
+    font-weight: 600;
+    color: rgba(23,99,207);
+}
+
+.conversation-item-posts {
+    min-height: 79.01px;
+    cursor: pointer;
+    padding: 15px 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    user-select: none;
+    position: relative;
+}
+
+.conversation-item-posts .conversation-item-posts-avatar {
+    min-width: 40px;
+    margin-left: 10px;
+    margin-right: 17px;
+    user-select: none;
+}
+
+.conversation-item-posts .item-wrapper .conversation-item-posts-content {
+    user-select: none;
+    width: calc(100% - 105px);
+}
+
+.conversation-item-posts .item-wrapper .conversation-item-posts-content .conversation-content {
+    margin-top: 5px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 50px;
+    -webkit-box-orient: vertical;
+    white-space: pre-line;
+    width: 100%;
+    overflow-wrap: break-word;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-line-clamp: 1;
+}
+
+.conversation-item-posts .item-wrapper .conversation-item-posts-meta {
+    width: 105px;
+    right: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.conversation-item-posts .item-wrapper .conversation-item-posts-meta .conversation-meta-first-row {
+    padding-right: 14px;
+    justify-content: flex-end;
+}
+
+.conversation-item-posts .item-wrapper .conversation-item-posts-meta .conversation-item-posts-second-row {
+    padding-right: 14px;
+    justify-content: space-between;
+}
+
+.conversation-item-posts .item-wrapper .conversation-item-posts-meta .conversation-meta-first-row .conversation-time-stamp {
+    margin-right: 4px;
+    font-size: 13px;
+}
+
+.conversation-item-posts .item-wrapper .conversation-item-posts-meta .conversation-item-posts-second-row .status-icon {
+    padding: 0 3px;
+}
+
+.conversation .col-left .conversation-list {
+    height: calc(100% - 100px);
+}
+
+.conversation-item-posts .conversation-item-posts-avatar {
+    min-width: 40px;
+    margin-left: 10px;
+    margin-right: 17px;
+    user-select: none;
+}
+
+.conversation-item-posts .conversation-item-posts-avatar img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #cfcfcf;
+}
+
+.conversation-item-posts .conversation-item-posts-avatar svg {
+    position: absolute;
+    right: -3px;
+    bottom: -6px;
+    width: 19px;
+    height: 19px;
+    z-index: 1;
+}
+
+.conversation-item-posts .conversation-item-posts-avatar .unread-count {
+    background: #e3404a;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+    line-height: 6px;
+    right: 1px;
+    top: -4px;
+    display: block;
+    font-size: 10px;
+    height: 18px;
+    min-width: 16px;
+    z-index: 1;
+}
+
+.conversation-item-posts-avatar img {
+    border: 2px solid #08f !important;
+}
+
+.conversation-item-posts svg {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+}
+
+.conversation-item-posts .conversation-item-content{
+    margin-left: 13px;
+    width: 220px;
+}
+
+.conversation-item-posts .conversation-item-content .facebook-body-chat-list-comment-user .sender {
+    font-size: 14px !important;
+    color: #212b35;
+    font-weight: 500;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    overflow: hidden;
+    line-height: 24px;
+}
+
+.conversation-item-posts .conversation-item-content .conversation-content #conversation-content-id{
+    font-size: 13px !important;
+    color: #212b35;
+    margin-right: 4px;
+    width: 80% !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+/*********************************0_0***********************************/
+/* New layout Facebook */
+#box-view-content-auth-facebook .social-login {
+    height: calc(100vh - 58px);
+}
+
+#box-view-content-auth-facebook .login-title-left {
+    width: 80%;
+    margin: 70px auto;
+}
+
+#box-view-content-auth-facebook #logo-head-auth-facebook {
+    vertical-align: middle;
+    border-style: none;
+    display: block;
+    width: 100%;
+    max-width: 168px;
+}
+
+#box-view-content-auth-facebook #logo-body-auth-facebook {
+    width: 100%;
+    max-height: 700px;
+    display: block;
+    object-fit: none;
+}
+
+#box-view-content-auth-facebook .text-large {
+    margin-top: 40px;
+    color: #464a50;
+    font-weight: 500;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
+
+#box-view-content-auth-facebook .text-smail {
+    margin-top: 10px;
+    color: rgb(95, 103, 125);
+    font-size: 1vw;
+    line-height: 19px;
+}
+
+#box-view-content-auth-facebook .login-title-right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#box-view-content-auth-facebook .wrapper-page-manage .wraper-button {
+    margin: 0 auto;
+}
+
+#box-view-content-auth-facebook .wrapper-page-manage .wraper-button .button {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 152px;
+    height: 40px;
+    border: 1px solid #0084ff;
+    background: linear-gradient(180deg, #0084ff, #4697fe);
+    box-shadow: inset 0 1px #1391ff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#box-view-content-auth-facebook .content-banner-connect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-view-content-auth-facebook .banner-content {
+    width: 500px !important;
+    height: 500px !important;
+}
+
+#box-view-content-auth-facebook .link-facebook-button-dashboard {
+    width: 80%;
+    height: auto;
+}
+
+#box-view-content-auth-facebook .social-network-custom {
+    background: #ffffff;
+    width: 100%;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+#box-view-content-auth-facebook .social-network-custom:hover img{
+    transform: translateY(-8px);
+    transition: all 0.3s linear;
+}
+
+#box-view-content-auth-facebook .social-network-custom img {
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 8px;
+}
+
+#box-view-content-auth-facebook .icon-item {
+    width: 64px;
+    height: 64px;
+    position: relative;
+    right: 2px;
+    top: 10px;
+}
+
+#box-view-content-auth-facebook .title-content-main {
+    color: #2195f1;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Layout manage page*/
+#manage-page-connect .card-item-menu {
+    width: 100%;
+    height: 65vh;
+    overflow-y: hidden !important;
+}
+
+#manage-page-connect .card-block-big-item-menu{
+    width: 100%;
+    display: flex
+}
+
+#manage-page-connect .card-item-list-category {
+    position: relative;
+    width: 47%;
+    margin: 8px;
+    height: 117px;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#manage-page-connect .manage-page-card-item-content-title {
+    font-size: 14px !important;
+    font-weight: 600;
+    color: #2b3d51;
+    width: 90%;
+    overflow: hidden;
+    word-break: break-all;
+    display: block;
+}
+
+#manage-page-connect .manage-page-card-item-content-title-name, .manage-page-card-item-content-title-email, .manage-page-card-item-content-title-status {
+    font-size: 12px !important;
+    font-weight: 500;
+    color: #2b3d51;
+    width: 90%;
+    overflow: hidden;
+    word-break: break-all;
+    display: block;
+}
+
+#manage-page-connect .card-item-list-category .manage-page-card-item-content-title-status {
+    color: #ffa233 !important;
+}
+
+#manage-page-connect .card-item-list-category.active .manage-page-card-item-content-title-status {
+    color: #109f13 !important;
+}
+
+
+.card-item-list-category-check {
+    position: relative;
+    width: 100%;
+    height: 117px;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+}
+
+#manage-page-connect .title-information-card-item-check {
+    margin: 10px;
+}
+
+#manage-page-connect .manage-page-card-item-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    margin: 0px 8px 0px 8px;
+}
+
+
+.title-information-card-item {
+    margin: 10px;
+    width: calc(100% - 100px) !important;
+}
+
+#manage-page-connect .title-information-card-item .checked-icon-box {
+    margin: 0px 0px 0px 35px ;
+}
+
+#manage-page-connect .checked-icon-box {
+    font-size: 30px;
+    color: #0068ff !important;
+}
+
+#manage-page-connect .item-card-menu-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+#manage-page-connect .item-card-menu-list-check {
+    width: 100%;
+    overflow: hidden auto;
+    height: 65vh;
+    border-left: 1px solid #dfdfdf;
+}
+
+#manage-page-connect .manage-page-card-item-img-right {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    margin: 0px 8px 0px 8px;
+    border-radius: 50%;
+}
+
+#manage-page-connect .item-card-menu-list-check .card-item-list-category-check {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    background: #e5efff;
+    padding: 0 18px 0 0;
+    transition: all 0.5s linear;
+    animation: rightTranslationAnimation 0.3s linear;
+}
+
+#manage-page-connect .item-card-menu-list-check .title-information-card-item-check {
+    margin: 10px 64px 10px 0;
+}
+
+#manage-page-connect .item-card-menu-list-check i {
+    font-size: 30px;
+    color: #0068ff !important;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+#manage-page-connect .checkbox-control-page-item {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+}
+
+#manage-page-connect .checkbox-control-page-item-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    background: #e2ebf6;
+    border-radius: 50%;
+    height: 2em;
+    margin: 0 0 0 auto;
+    flex: none;
+    outline: none;
+    position: relative;
+    transition: all 0.2s;
+    width: 2em;
+}
+
+#manage-page-connect .checkbox-control-page-item-input:after {
+    border: 2px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    content: '';
+    display: flex;
+    height: 1em;
+    left: 8px;
+    position: absolute;
+    top: 4px;
+    transform: rotate(45deg);
+    width: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+#manage-page-connect .checkbox-control-page-item-input:focus {
+    box-shadow: 0 0 0 2px rgba(100, 193, 117, 0.6);
+}
+
+#manage-page-connect .checkbox-control-page-item-input:checked {
+    background: #64c175;
+    border-color: #64c175;
+}
+
+/* Grid Image */
+#about-chat-facebook-right-bar .see-list-image-video-grid {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 4px 10px 0px;
+}
+
+#about-chat-facebook-right-bar .see-item-image-video-grid {
+    width: 100px;
+    height: 100px;
+    margin: 6px 4px;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    border-radius: 4px;
+    position: relative;
+}
+
+#about-chat-facebook-right-bar .see-item-image-video-grid-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+#about-chat-facebook-right-bar .see-item-image-video-grid-download {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    border-radius: 4px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+    display: flex;
+}
+
+#about-chat-facebook-right-bar .see-item-image-video-grid-download:hover {
+    color: #0068ff;
+}
+
+@keyframes rightTranslationAnimation {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes leftTranslationAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+

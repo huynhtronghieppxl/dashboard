@@ -1,0 +1,77 @@
+.seemt-main-content .form-validate-input input{
+    padding: 26px 0px 10px 16px !important;
+    background: #F5F6FA !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 22.75px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: #28282B;
+    border: 1px solid #F1F2F5;
+}
+.seemt-main-content .form-validate-input .line{
+   border: none !important;
+}
+.seemt-main-content .focus-validate .line{
+    border: 0px !important;
+}
+
+.seemt-main-content .form-validate-input label{
+    left: 8px !important;
+    top: -13px !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #7D7E81;
+    background: none !important;
+}
+
+.seemt-main-content .form-validate-input.focus-validate .line {
+    border: none !important;
+}
+/*.seemt-main-content .form-validate-input.focus-validate label {*/
+/*   color: unset !important;*/
+/*}*/
+
+.seemt-container .seemt-main .error span{
+    justify-content: left;
+}
+
+
+.seemt-container .form-validate-input.validate-error .line{
+    border: 1.5px solid #fe5d70 !important;
+    border-radius: 6px !important;
+}
+
+.seemt-container .validate-group{
+    margin-bottom: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+
+.seemt-main-content .form-validate-input label span{
+    background: var(--main-color);
+    color: #ffffff;
+    height: 12px;
+    /* padding: 3.5px; */
+    width: 12px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    margin: 0px 0px 0px 8px !important;
+
+}
+
+.seemt-main-content .form-validate-input label span i{
+    font-size: 7px !important;
+    /*padding: 3.4px;*/
+    display: block;
+    margin: 0;
+}

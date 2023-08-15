@@ -1,0 +1,25 @@
+#btn-back-list-paradigm {
+    display: flex;
+    justify-content: center;
+}
+
+.show-more-detail-procedure {
+    text-transform: capitalize;
+    margin-left: 10px;
+    color: #fa6342;
+    font-weight: 500;
+    font-size: 12px !important;
+    float: right;
+}
+
+.show-more-detail-procedure:hover {
+    color: #fa6342;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#get-image-option-create-restaurant {
+    width: 100%;
+    height: auto;
+}
+

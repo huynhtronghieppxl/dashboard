@@ -1,0 +1,18 @@
+.swal2-popup{
+    border-radius: 0.7rem !important;
+}
+
+
+.swal2-popup .swal2-actions button{
+    border-radius: 20px;
+}
+
+.swal2-popup .swal2-footer{
+    border-bottom: 7px solid #ffa233;
+    overflow: hidden;
+    border-bottom-right-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    display: block !important;
+    margin-top: 0;
+    padding: 0;
+}

@@ -1,0 +1,112 @@
+.modal .modal-footer button.btn-grd-primary{
+    background: #E3ECF5;
+    color: #1462B0;
+}
+
+.modal .modal-footer button.btn-grd-inverse{
+    background: #adaeb1;
+    color: #000;
+}
+
+.modal .modal-body{
+    background: #F5F6FA;
+}
+
+.modal .modal-body .modal-header{
+    height: 64px;
+    position: relative;
+    align-items: center;
+}
+
+.modal .modal-header .modal-title{
+    padding: 18px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px !important;
+    /* line-height: 28px; */
+    color: #1462B0;
+    margin: 0;
+}
+
+.modal .modal-header .modal-title{
+    text-transform: uppercase;
+}
+
+
+.modal .modal-header .modal-title:after{
+    content: "";
+    position: absolute;
+    height: 32px;
+    width: 4px;
+    left: 1px;
+    right: 99.62%;
+    top: 25%;
+    left: 0.08%;
+    bottom: 25%;
+    background: #1462B0;
+    border-radius: 0px 4px 4px 0px;
+}
+
+
+
+
+
+.modal .modal-body .card-block{
+    margin: 4px 14px;
+    border-radius: 8px;
+    /*padding: 0px;*/
+}
+
+.modal .modal-footer button.btn-grd-disabled{
+    background: #F1F2F5;
+    color: #000;
+}
+
+.modal .modal-footer button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 4px;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.15px;
+    outline: none;
+    /*height: 53px;*/
+}
+.modal .modal-footer{
+    border-bottom: none !important;
+    padding: 13.5px 30px 13.5px 30px;
+    filter: drop-shadow(0px -4px 8px rgba(0, 0, 0, 0.04));
+    height: 70px;
+}
+
+
+.modal .modal-header button.close{
+    background: #F1F2F5;
+    width: 38px;
+    height: 38px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E8002E;
+}
+
+.modal .modal-header button.close:focus{
+    outline: none;
+}
+
+.modal .modal-header button.close i{
+    font-size: 11.92px;
+}
+
+.modal .modal-header button.close i:before{
+    font-weight: 900 !important;
+}

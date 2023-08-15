@@ -1,0 +1,2766 @@
+#layout-about-visible-message .right-model {
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    height: calc(100vh - 80px);
+    border-left: 1px solid #dfdfdf;
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#layout-about-visible-message .right-model::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: 1px solid transparent !important;
+}
+
+#layout-about-visible-message .right-model::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+}
+
+#layout-about-visible-message .right-model::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    box-shadow: unset !important;
+    border: 1px solid transparent; !important;
+}
+
+#layout-about-visible-message .right-model.scroll::-webkit-scrollbar-thumb {
+    background-color: rgb(128, 125, 125);
+}
+
+#layout-about-visible-message .number-person-about {
+    font-size: 14px !important;
+}
+
+#layout-about-visible-message .scroll-box-about {
+    width: 100%;
+}
+
+#layout-about-visible-message .chater-info {
+    background: #fff none repeat scroll 0 0;
+    padding-top: 7px;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+#layout-about-visible-message .image-about-visible-message {
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    width: 90px;
+    height: 90px;
+}
+
+#layout-about-visible-message .image-about-visible-message > img {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    opacity: 1;
+    border: 1px solid #fff;
+}
+
+#layout-about-visible-message .name-about-custom-style {
+    color: #fa6342 !important;
+    display: inline-block;
+    font-size: 16px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: auto;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.name-user-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 200px;
+    position: relative;
+}
+
+.info-name-member-about {
+    color: var(--color-text-title);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    font-weight: 500;
+}
+
+#layout-about-visible-message .avt-img {
+    position: absolute;
+    border-radius: 50%;
+    font-size: 18px;
+    height: 30px;
+    width: 30px;
+    background: rgb(0 0 0 / 50%) none repeat scroll 0 0;
+    top: 70%;
+    left: 3.8em;
+    transform: scale(0);
+    transition: all 0.2s linear 0s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#layout-about-visible-message .avt-img > i {
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+#layout-about-visible-message .image-about-visible-message:hover .avt-img {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+#layout-about-visible-message .name-user {
+    position: relative;
+    top: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*ACTION ABOUT*/
+#layout-about-visible-message .action-control-about {
+    display: flex;
+    margin: 20px 0 0 0;
+    padding: 0 0 15px 0;
+    cursor: pointer;
+    justify-content: center;
+    border-bottom: 4px solid #f5f5f5;
+}
+
+#layout-about-visible-message .action-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#layout-about-visible-message .action-content i{
+    /*background: #9b9c9d;*/
+    color: #6a6c6e;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px !important;
+}
+
+#layout-about-visible-message .action-content i:hover{
+    color: #fa6342;
+}
+
+#layout-about-visible-message .action-content span{
+    padding-top: 3px;
+    font-size: 10px !important;
+    color: #72808E;
+    width: 84px;
+}
+
+#layout-about-visible-message .change-name-userAndGroup {
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    background: #d6d6d6;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#layout-about-visible-message .change-name-visible-message {
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    background: #d6d6d6;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#layout-about-visible-message .change-name-userAndGroup > i {
+    font-size: 12px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+#layout-about-visible-message .userabout {
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+#layout-about-visible-message .media {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+#layout-about-visible-message .border-color-about {
+    padding-top: 8px;
+}
+
+#layout-about-visible-message .title-img-video {
+    color: var(--color-text-title);
+    display: inline-block;
+    font-weight: 550;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px !important;
+    border-left: 3px solid #fa6342;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+ #layout-about-visible-message .title-key-admin{
+     color: var(--color-text-title);
+ }
+
+#layout-about-visible-message .hidden-general-info {
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    color: #72808e;
+    transition-duration: .5s;
+    width: auto !important;
+    transition: all 0.3s linear;
+}
+
+#layout-about-visible-message .info-about {
+    padding: 0 12px;
+    border-top: 1px solid #eaeaea;
+}
+
+#layout-about-visible-message .info-about > div {
+    color: #535165;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 14px !important;
+}
+
+#layout-about-visible-message .info-about > p {
+    display: inline-block;
+    font-size: 13px !important;
+    line-height: 20px;
+    width: 100%;
+}
+
+#layout-about-visible-message .info-about > ul {
+    display: inline-block;
+    list-style: outside none none;
+    padding-left: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#layout-about-visible-message .info-about > ul > li {
+    display: inline-block;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+#layout-about-visible-message .info-about > ul > li span {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px !important;
+}
+
+#layout-about-visible-message .info-about > ul > li > span > i,
+.info-about > ul > li > div > a,
+.info-about > div > i {
+    color: #fa6342
+}
+
+#layout-about-visible-message .text-decoration-hover-link-info,
+.text-decoration-hover-email-info {
+    position: relative;
+}
+
+#layout-about-visible-message .text-decoration-hover-link-info:before {
+    background: #fa6342;
+    bottom: -3px;
+    content: "";
+    height: 1px;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    width: 80px;
+    transition: all 0.2s linear 0s;
+}
+
+#layout-about-visible-message .text-decoration-hover-link-info:hover:before {
+    opacity: 1;
+    visibility: visible;
+    bottom: 1px;
+}
+
+#layout-about-visible-message .text-decoration-hover-email-info:before {
+    background: #fa6342;
+    bottom: -3px;
+    content: "";
+    height: 1px;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    width: 85px;
+    left: 6px;
+    transition: all 0.2s linear 0s;
+}
+
+#layout-about-visible-message .text-decoration-hover-email-info:hover:before {
+    opacity: 1;
+    visibility: visible;
+    bottom: 1px;
+}
+
+#layout-about-visible-message .title-number-member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 32px;
+    width: 248px;
+    font-size: 14px !important;
+    margin: 16px 20px;
+    background-color: var(--background-color);
+    color: var(--color-text-title);
+    font-weight: 550;
+    border: 1px solid #e8eaef;
+    position: relative;
+    left: 26px;
+    border-radius: 8px;
+}
+
+#layout-about-visible-message .title-number-member:hover {
+    background: var(--background-color-hover);
+    cursor: pointer;
+}
+
+/* #layout-about-visible-message .title-number-member:before {
+    background: #fa6342;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    width: 70px;
+    transition: all 0.2s linear 0s;
+} */
+
+/* #layout-about-visible-message .title-number-member:hover:before {
+    opacity: 1;
+    visibility: visible;
+    bottom: 7px;
+} */
+
+#layout-about-visible-message .info-about > ul > li > p,
+.info-about > p {
+    display: inline-block;
+    font-size: 13px !important;
+    color: #959ab5;
+    line-height: 20px;
+}
+
+#layout-about-visible-message .slider-img-about {
+    position: relative;
+    top: 0;
+    left: -13px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7em;
+    margin: 11px 0;
+    overflow: hidden;
+}
+
+#layout-about-visible-message .slider-img-about .arrow-img {
+    cursor: pointer;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    background: transparent;
+    transition: all 0.2s linear 0s;
+    z-index: 2;
+}
+
+#layout-about-visible-message .slider-img-about .arrow-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 0.75em;
+    height: 0.75em;
+    margin: auto;
+    border-style: solid;
+}
+
+#layout-about-visible-message .slider-img-about .arrow-img:hover {
+    background: #fa6342;
+}
+
+#layout-about-visible-message .slider-img-about .prev-img {
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 50%);
+    background: #ebebeb;
+    top: 29px;
+    left: 31px;
+}
+
+#layout-about-visible-message .slider-img-about .prev-img:before {
+    left: 0.25em;
+    border-width: 3px 0 0 3px;
+    border-color: #333 transparent transparent #333;
+    transform: rotate(-45deg);
+}
+
+#layout-about-visible-message .slider-img-about .prev-img:hover:before {
+    left: 0.25em;
+    border-width: 3px 0 0 3px;
+    border-color: #fff transparent transparent #fff;
+    transform: rotate(-45deg);
+}
+
+#layout-about-visible-message .slider-img-about .next-img {
+    right: 18px;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 50%);
+    background: #ebebeb;
+    top: 29px;
+}
+
+#layout-about-visible-message .slider-img-about .next-img:before {
+    right: 0.25em;
+    border-width: 3px 3px 0 0;
+    border-color: #333 #333 transparent transparent;
+    transform: rotate(45deg);
+}
+
+#layout-about-visible-message .slider-img-about .next-img:hover:before {
+    right: 0.25em;
+    border-width: 3px 3px 0 0;
+    border-color: #fff #fff transparent transparent;
+    transform: rotate(45deg);
+}
+
+#layout-about-visible-message .slider-img-about .resource-slider-frame-img {
+    position: absolute;
+    top: 0;
+    left: 2em;
+    right: 0.75em;
+    bottom: 0;
+    border-left: 1.25em solid transparent;
+    border-right: 1em solid transparent;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#layout-about-visible-message .slider-img-about .resource-slider-item-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /*width: 80px;*/
+    height: 85px;
+}
+
+#layout-about-visible-message .slider-img-about .resource-slider-inset-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 85px;
+}
+
+#layout-about-visible-message .slider-img-about .item-box {
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.item-image-detail-about-visible-message.video-hover-show-download:hover  .icon-dowload-video-detail-visible-message {
+    display: flex;
+}
+
+#layout-about-visible-message .item-box.video:hover .icon-dowload-video-about-visible-message{
+    display: flex;
+}
+
+#layout-about-visible-message .slider-img-about .item-box > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#layout-about-visible-message .slider-img-about .item-box > a img {
+    border-radius: 0;
+    border: 1px solid #d5d6d9;
+    transition: all 0.2s linear 0s;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.resource-slider-inset-img .resource .item-box a img {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+#layout-about-visible-message .resource-slider-inset-img:hover .img-view {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#layout-about-visible-message .see-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 32px;
+    width: 248px;
+    font-size: 14px !important;
+    margin: 0 22px;
+    background-color: var(--background-color);
+    color: #2e2e2e;
+    transition: all .3s ease;
+    position: relative;
+    bottom: 10px;
+    left: 26px;
+    border-radius: 8px;
+    font-weight: 550;
+}
+
+#layout-about-visible-message .see-all:hover {
+    background-color: #f1f1f1;
+    color: #fa6342;
+}
+
+/* #layout-about-visible-message .see-all:before {
+    background: #fa6342;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    width: 70px;
+    transition: all 0.2s linear 0s;
+}
+
+#layout-about-visible-message .see-all:hover:before {
+    opacity: 1;
+    visibility: visible;
+    bottom: 7px;
+} */
+
+#layout-about-visible-message .slider-video-about {
+    position: relative;
+    top: 0;
+    left: 5px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7em;
+    margin: 11px 0;
+    overflow: hidden;
+}
+
+#layout-about-visible-message .arrow {
+    cursor: pointer;
+    position: absolute;
+    width: 2em;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    background: transparent;
+    z-index: 2;
+    transition: all 0.2s linear 0s;
+}
+
+#layout-about-visible-message .slider-video-about .arrow:hover {
+    background: #fa6342;
+}
+
+#layout-about-visible-message .slider-video-about .arrow:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 0.75em;
+    height: 0.75em;
+    margin: auto;
+    border-style: solid;
+}
+
+#layout-about-visible-message .slider-video-about .prev {
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 50%);
+    background: #ebebeb;
+    top: 31px;
+    left: 14px;
+}
+
+#layout-about-visible-message .slider-video-about .prev:before {
+    left: 0.25em;
+    border-width: 3px 0 0 3px;
+    border-color: #333 transparent transparent #333;
+    transform: rotate(-45deg);
+}
+
+#layout-about-visible-message .slider-video-about .prev:hover:before {
+    left: 0.25em;
+    border-width: 3px 0 0 3px;
+    border-color: #fff transparent transparent #fff;
+    transform: rotate(-45deg);
+}
+
+#layout-about-visible-message .slider-video-about .next {
+    right: 23px;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 50%);
+    background: #ebebeb;
+    top: 31px;
+}
+
+#layout-about-visible-message .slider-video-about .next:before {
+    right: 0.25em;
+    border-width: 3px 3px 0 0;
+    border-color: #333 #333 transparent transparent;
+    transform: rotate(45deg);
+}
+
+#layout-about-visible-message .slider-video-about .next:hover:before {
+    right: 0.25em;
+    border-width: 3px 3px 0 0;
+    border-color: #fff #fff transparent transparent;
+    transform: rotate(45deg);
+}
+
+#layout-about-visible-message .slider-video-about .resource-slider-frame {
+    position: absolute;
+    top: 0;
+    left: 2em;
+    right: 3em;
+    bottom: 0;
+    border-left: 0em solid transparent;
+    border-right: 0em solid transparent;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#layout-about-visible-message .slider-video-about .resource-slider-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 261px;
+    height: 85px;
+}
+
+#layout-about-visible-message .slider-video-about .resource-slider-inset {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 85px;
+}
+
+#layout-about-visible-message .slider-video-about .item-box {
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#layout-about-visible-message .slider-video-about .item-box > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#layout-about-visible-message .slider-video-about .item-box > a img {
+    border-radius: 0;
+    border: 1px solid #d5d6d9;
+    transition: all 0.2s linear 0s;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.item-box:hover .icon-dowload-about-visible-message {
+    display: flex !important;
+}
+
+#layout-about-visible-message .resource-slider-inset:hover .video-view {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#layout-about-visible-message .strip {
+    position: relative;
+}
+
+#layout-about-visible-message .play {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    stroke: #fff;
+}
+
+#layout-about-visible-message .stroke-solid {
+    fill: #fa6342;
+    stroke-dashoffset: 0;
+    stroke-dashArray: 300;
+    stroke-width: 4px;
+    transition: stroke-dashoffset 1s ease, opacity 1s ease;
+    opacity: 0.7;
+}
+
+#layout-about-visible-message .play:hover .stroke-solid {
+    opacity: 1;
+    stroke-dashoffset: 300;
+}
+
+#layout-about-visible-message .icon {
+    fill: #fff;
+}
+
+#layout-about-visible-message .strip {
+    position: relative;
+}
+
+#slider-image-about-detail-visible-message .play {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    stroke: #fff;
+}
+
+#slider-image-about-detail-visible-message .stroke-solid {
+    fill: #fa6342;
+    stroke-dashoffset: 0;
+    stroke-dashArray: 300;
+    stroke-width: 4px;
+    transition: stroke-dashoffset 1s ease, opacity 1s ease;
+    opacity: 0.7;
+}
+
+#slider-image-about-detail-visible-message .play:hover .stroke-solid {
+    opacity: 1;
+    stroke-dashoffset: 300;
+}
+
+#slider-image-about-detail-visible-message .icon {
+    fill: #fff;
+}
+
+#layout-about-visible-message .file-group-items {
+    padding: 10px 6px;
+    cursor: pointer;
+    display: flex;
+}
+
+#layout-about-visible-message .file-group-items.link {
+    padding: 10px 6px;
+    cursor: pointer;
+    display: flex;
+    width: 350px;
+}
+
+#layout-about-visible-message .media-item-file {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 12px 0 6px;
+    width: 100%;
+}
+
+#layout-about-visible-message .file-thumb-img {
+    height: 42px;
+    width: 42px;
+    object-fit: cover;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    border: 1px solid #dfdfdf;
+}
+
+#layout-about-visible-message .info-file {
+    margin-left: 8px;
+    width: 230px;
+}
+
+#detail-about-link-visible-message .info-file {
+    margin-left: 8px;
+    width: 270px;
+}
+
+#detail-about-link-visible-message .info-link-subtitle {
+    font-size: 13px;
+    color: #0068ff;
+    cursor: pointer;
+    flex-flow: row nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 270px !important;
+}
+
+#layout-about-visible-message .info-file-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404E67;
+    text-align: left;
+    cursor: pointer;
+}
+
+#layout-about-visible-message .group-subtitle-file {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+#layout-about-visible-message .info-file-subtitle {
+    font-size: 12px;
+    color: #979797;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 155px;
+}
+
+#layout-about-visible-message .info-file-date {
+    position: absolute;
+    right: 16px;
+    flex-shrink: 0;
+    color: #72808e;
+    margin-top: 2px;
+}
+
+#layout-about-visible-message .download-file-visible-message {
+    position: absolute;
+    right: 16px;
+    top: -2px;
+    border: 1px solid #abb4bc;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+#layout-about-visible-message .hover-link-file:hover .download-file-visible-message {
+    visibility: visible;
+}
+
+#layout-about-visible-message .download-file-visible-message > i {
+    font-size: 14px;
+}
+
+#layout-about-visible-message .hover-link-file:hover {
+    background: #e8eaef;
+}
+#layout-about-visible-message .hover-link-file.all-file-detail:hover .see-item-image-video-grid-download.file-about.btn-download-file-upload{
+    display: flex;
+}
+
+#layout-about-visible-message .hover-link-file.all-file-detail .file-thumb-img {
+    border: 1px solid transparent;
+}
+
+#layout-about-visible-message .hover-link-file:hover .icon-download-hover {
+    display: flex;
+}
+
+#layout-about-visible-message .hover-link-file {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#layout-about-visible-message .link-group-items {
+    padding: 10px 6px;
+    cursor: pointer;
+    display: flex;
+}
+
+#layout-about-visible-message .media-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 12px 0 6px;
+    width: 100%;
+}
+
+#layout-about-visible-message .link-thumb-img {
+    height: 42px;
+    width: 42px;
+    object-fit: cover;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    border: 1px solid #d5d6d9;
+}
+
+#layout-about-visible-message .info-link {
+    margin-left: 8px;
+    position: relative;
+    width: 100%;
+}
+
+#layout-about-visible-message .info-link-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 260px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404E67;
+    text-align: left;
+    cursor: pointer;
+}
+
+#layout-about-visible-message .group-subtitle {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+#layout-about-visible-message .info-link-subtitle {
+    font-size: 13px;
+    color: #0068ff;
+    cursor: pointer;
+    flex-flow: row nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 210px;
+}
+
+#layout-about-visible-message .info-link-date {
+    position: absolute;
+    right: 4px;
+    flex-shrink: 0;
+    color: #72808e;
+    margin-top: 2px;
+}
+
+#layout-about-visible-message .slide-to-top {
+    border-top: 1px solid #dfdfdf;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 10px 10px 10px 14px;
+}
+
+#layout-about-visible-message .slide-to-top.file {
+    border-top: 1px solid #dfdfdf;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+#layout-about-visible-message .slide-to-top.link {
+    border-top: 1px solid #dfdfdf;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+#layout-about-visible-message .slide-to-top-group {
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#layout-about-visible-message .rotate-icon-drop-down-info-visible-about {
+    transform: rotate(-90deg);
+}
+
+#layout-about-visible-message .body-all-member {
+    display: block;
+}
+
+#layout-about-visible-message .row-member {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#layout-about-visible-message .row-member:hover {
+    background-color: var(--background-color-hover);
+    cursor: pointer;
+}
+.dx-item.dx-list-item:hover{
+    background-color: var(--background-color-hover);
+}
+#layout-about-visible-message .row-member:hover .dropdown-remove-visible-message {
+    visibility: visible;
+}
+
+#layout-about-visible-message .row-member-popup:hover .dropdown-remove-visible-message {
+    visibility: visible;
+}
+
+#layout-about-visible-message .row-member:hover .dropdown-action-user-about {
+    display: block;
+}
+
+.dropdown-item.dropdown-item-custom {
+    font-weight: 500 !important;
+    color: #001a33;
+}
+
+#layout-about-visible-message .img-members-about {
+    position: relative;
+}
+
+.status-member-message.online {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00b300;
+    border: 2px solid #fff;
+}
+
+.status-member-message.offline {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+    border: 2px solid #fff;
+}
+
+#layout-about-visible-message .img-members-about > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#layout-about-visible-message .img-avt-member-online {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#layout-about-visible-message .img-members-about .key-admin-member-visible-message {
+    width: 16px;
+    height: 16px;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#layout-about-visible-message .title-key-admin {
+    font-size: 13px;
+}
+
+#layout-about-visible-message .options-members {
+    position: absolute;
+    right: 20px;
+    visibility: hidden;
+}
+
+#layout-about-visible-message .info-member-about {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#layout-about-visible-message .dropdown-content-members {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+    z-index: 1;
+    color: black;
+    padding: 12px 16px;
+    right: 0;
+    margin-top: 60px;
+}
+
+#layout-about-visible-message .dropdown-content-members:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#layout-about-visible-message .delete-chat-visible-message {
+    font-size: 15px;
+    font-weight: 500;
+    color: #db342e;
+    display: flex;
+    padding: 5px 22px 5px 12px;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+#layout-about-visible-message .delete-chat-visible-message:hover {
+    background-color: #e8eaef;
+}
+
+#layout-about-visible-message #setting-about-visible-message {
+    position: relative;
+}
+
+#layout-about-visible-message #setting-about-visible-message .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: -10px;
+    right: 10px;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#layout-about-visible-message #setting-about-visible-message .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#layout-about-visible-message #setting-about-visible-message input:checked + .slider {
+    background-color: #fa6342;
+}
+
+#layout-about-visible-message #setting-about-visible-message input:focus + .slider {
+    box-shadow: 0 0 1px #fa6342;
+}
+
+#layout-about-visible-message #setting-about-visible-message input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+
+#layout-about-visible-message #setting-about-visible-message .slider.round {
+    border-radius: 34px;
+}
+
+#layout-about-visible-message #setting-about-visible-message .slider.round:before {
+    border-radius: 50%;
+}
+
+#layout-about-visible-message #setting-about-visible-message .switch {
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 18px;
+}
+
+#layout-about-visible-message #setting-about-visible-message .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+#layout-about-visible-message #setting-about-visible-message .slide-to-top > div {
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#layout-about-visible-message #setting-about-visible-message .slide-to-top > div > span {
+    margin-left: 16px;
+    color: #abb4bc;
+    display: block;
+}
+
+.popup-view-video-about-visible-message {
+    bottom: 0;
+    left: 0;
+    /* position: fixed; */
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 1612;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #3e4041;
+}
+
+.popup-view-video-about-visible-message > div {
+    border-radius: 3%;
+    left: 50%;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: calc(100vh - 100px);
+}
+
+.popup-view-video-about-visible-message > span {
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    padding: 20px;
+}
+
+.popup-view-video-about-visible-message > div > video {
+    height: 100%;
+    width: 100%;
+}
+
+.popup-view-video-about-visible-message.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/**
+*Layout See All Member
+*/
+#layout-about-visible-message .member-all-popup, #layout-about-visible-message .group-all-popup {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    z-index: 55;
+    width: 350px;
+    height: calc(100vh - 56px);
+    border-left: 1px solid #d4d4d4;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#layout-about-visible-message .member-all-popup.show, #layout-about-visible-message .group-all-popup.show  {
+    opacity: 1;
+    visibility: visible;
+}
+
+#layout-about-visible-message .m-member-all-popup {
+    background: #fff none repeat scroll 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#layout-about-visible-message .header-see-member-popup {
+    padding: 24px;
+    height: 60px;
+    border-bottom: 1px solid #d4d4d4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#layout-about-visible-message .back-arrow-member-popup {
+    cursor: pointer;
+    margin-top: 3px;
+    font-size: 18px;
+}
+
+#layout-about-visible-message .back-arrow-member-popup > i {
+    position: relative;
+}
+
+#layout-about-visible-message .back-arrow-member-popup::before {
+    background: #eaeaea none repeat scroll 0 0;
+    border-radius: 100%;
+    content: "";
+    height: 35px;
+    width: 35px;
+    left: 30px;
+    top: 33px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 0.2s linear 0s;
+    z-index: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+#layout-about-visible-message .back-arrow-member-popup:hover:before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+#layout-about-visible-message .title-see-member-popup {
+    font-size: 16px;
+    font-weight: 500;
+    color: #001a33;
+}
+
+#layout-about-visible-message .row-member-popup {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#layout-about-visible-message .img-members-about-popup > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #d5d6d9;
+}
+
+#layout-about-visible-message .info-member-about-popup {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#layout-about-visible-message .body-all-member-popup {
+    display: block;
+    height: calc(100vh - 174px);
+    overflow: auto;
+}
+
+#layout-about-visible-message .body-all-member-popup::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#layout-about-visible-message .body-all-member-popup::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+}
+
+#layout-about-visible-message .body-all-member-popup::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    box-shadow: unset;
+}
+
+#layout-about-visible-message .body-all-member-popup.scroll::-webkit-scrollbar-thumb {
+    background-color: rgb(128, 125, 125);
+}
+
+#layout-about-visible-message .options-members-popup {
+    position: absolute;
+    right: 20px;
+    visibility: hidden;
+}
+
+#layout-about-visible-message .row-member-popup:hover .options-members-popup {
+    visibility: visible;
+}
+
+#layout-about-visible-message .row-member-popup:hover {
+    background: #e8eaef;
+    cursor: pointer;
+}
+
+#layout-about-visible-message .title-key-admin-popup {
+    font-size: 12px;
+}
+
+#layout-about-visible-message .media-all-visible-message.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#layout-about-visible-message .media-all-visible-message {
+    position: absolute;
+    top: 0;
+    z-index: 55;
+    width: 350px;
+    height: calc(100vh - 56px);
+    border-left: 1px solid #d4d4d4;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#layout-about-visible-message .m-all-media {
+    background: #fff none repeat scroll 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#layout-about-visible-message .header-see-all-media {
+    padding: 18px 10px;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#layout-about-visible-message .pointer-arrow-hidden-media {
+    cursor: pointer;
+}
+
+#layout-about-visible-message .pointer-arrow-hidden-media::before {
+    background: #eaeaea none repeat scroll 0 0;
+    border-radius: 100%;
+    content: "";
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 32px;
+    left: 20px;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 0.2s linear 0s;
+    z-index: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#layout-about-visible-message .pointer-arrow-hidden-media:hover:before {
+    transform: translate(-30%, -52%) scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+#layout-about-visible-message .back-arrow-all-media {
+    z-index: 2;
+    position: relative;
+    margin-left:10px;
+}
+
+#layout-about-visible-message .title-see-all-media {
+    font-size: 16px;
+    font-weight: 500;
+    color: #001a33;
+    margin-left: -10px;
+    text-align: center;
+    width: 100%;
+}
+
+#layout-about-visible-message .choose-tag-media {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+#layout-about-visible-message .tab-bar-about {
+    height: 50px;
+    padding: 0 16px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+#layout-about-visible-message .tab-bar-flex-about {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#layout-about-visible-message .tab-bar-items-about {
+    height: 100%;
+    padding: 8.5px 0;
+    cursor: pointer;
+}
+
+#layout-about-visible-message .tab-bar-items-about.active {
+    color: #0068ff;
+    border-bottom: 2px solid #0068ff;
+}
+
+#layout-about-visible-message .size-title-tab-bar-about {
+    font-size: 14px !important;
+}
+
+#layout-about-visible-message .scroll-box-img, .scroll-box-video {
+    width: 100%;
+    position: relative;
+    padding-top: 1rem;
+}
+
+#layout-about-visible-message .scroll-box-file, .scrollbox-member,
+.scroll-box-link, .scroll-box-member-popup {
+    width: 100%;
+    position: relative;
+}
+
+#layout-about-visible-message .row-img, .row-img:before, .row-img:after {
+    clear: both;
+}
+
+#layout-about-visible-message .row-img .grid-img-2, .row-video .grid-video-2 {
+    padding-left: 5px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#layout-about-visible-message .row-img .grid-img-2 img, .row-video .grid-video-2 img {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid #d5d6d9;
+}
+
+#layout-about-visible-message .row-img .grid-img-2, .row-video .grid-video-2 {
+    width: 50%;
+}
+
+#layout-about-visible-message .body-see-img, .body-see-video {
+    display: inline-block;
+    height: calc(100vh - 214px);
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    overflow: auto;
+}
+
+#layout-about-visible-message .body-see-file, .body-see-link {
+    display: inline-block;
+    height: calc(100vh - 188px);
+    overflow: auto;
+}
+
+#layout-about-visible-message .img-view:hover, .grid-video-2 > a:hover .video-view {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+#layout-about-visible-message .row-video, .row-video:before, .row-video:after {
+    clear: both;
+}
+
+#layout-about-visible-message .row-video .grid-video-2 {
+    padding-left: 5px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#layout-about-visible-message .row-video .grid-video-2 img {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid #d5d6d9;
+}
+
+#layout-about-visible-message .row-video .grid-video-2 {
+    width: 50%;
+}
+
+#layout-about-visible-message .date-send-img-about-visible-message {
+    text-align: left;
+    padding: 0 0 5px 5px;
+    font-weight: bold;
+}
+
+#layout-about-visible-message #setting-about-visible-message > div > div:hover,
+#setting-about-visible-message > div > span:hover {
+    background-color: #e8eaef;
+}
+
+#layout-about-visible-message .search-area-info-member-about-visible-message {
+    border-bottom: 1px solid #eaeaea;
+    padding-right: 10px;
+}
+
+#layout-about-visible-message .search-area-info-member-about-visible-message > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    height: 36px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    width: 96%;
+}
+
+#layout-about-visible-message .search-area-info-member-about-visible-message > div > a:first-child {
+    margin: 0 5px 0 12px;
+}
+
+#layout-about-visible-message .search-area-info-member-about-visible-message > div > a {
+    margin: 0 10px 0 4px;
+    transition: all 0.25s ease-in-out;
+}
+
+#layout-about-visible-message .input-search-member-about {
+    border: none;
+    background-color: transparent;
+    width: 215px;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+#layout-about-visible-message .clear-text-area-member-search-about {
+    visibility: hidden;
+}
+
+.list-image-itemimage-detail-about-visible-message img {
+
+}
+
+.item-image-about-see-all-visible-message:hover .image-tab-about-visible-message {
+    opacity: 1 !important;
+    transform: scale(1.2);
+}
+
+.image-tab-about-visible-message {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.video-tab-about-visible-message {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 0.5px solid #e1e1e1;
+    opacity: 1 !important;
+}
+
+.item-image-detail-about-visible-message span {
+    margin: 0 8px;
+    font-size: 15px !important;
+    cursor: pointer;
+}
+
+.item-image-detail-about-visible-message {
+    width: 100px;
+    height: auto;
+    position: relative;
+    margin: 2px;
+}
+
+.item-image-detail-about-visible-message.file-about {
+    width: 100px;
+    height: auto;
+    position: relative;
+    margin: 0;
+}
+
+.item-image-detail-about-visible-message.file-about {
+    width: 100%;
+}
+
+/* xem tất cả ảnh*/
+.img-all-about-visible-message {
+    height: 100%;
+    overflow: auto;
+}
+
+.margin-all-image-about {
+    margin-bottom: 5px !important;
+}
+
+.form-radio-create-group::-webkit-scrollbar {
+    background-color: rgba(255, 255, 255, 0);
+    height: 5px;
+}
+
+.border-color-about {
+    border-bottom: 2px solid #d7d7d7;
+}
+
+/*scroll tất cả ảnh theo ngaỳ*/
+.scroll-detail-images-visible-message::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.scroll-detail-link-visible-message::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.scroll-detail-video-visible-message::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.scroll-detail-file-visible-message, .scroll-detail-images-visible-message,
+.scroll-detail-video-visible-message, .scroll-detail-link-visible-message {
+    height: calc(100vh - 39.5px - 98px - 28px);
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.scroll-detail-file-visible-message::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.change-name-visible-message .ion-ios-checkmark {
+    color: #1c72bc;
+    top: -1px !important;
+    font-size: 16px !important;
+    right: 3px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.hide-img-by-date-about-visible-message {
+    font-size: 14px !important;
+}
+
+.boder-input {
+    border: 1px solid #fa6342;
+}
+
+#layout-about-visible-message .show-drop-down-member {
+    display: block !important;
+}
+
+.dropdown.dropdown-action-user-about {
+    position: absolute;
+    right: 25px;
+    display: none;
+}
+
+.dropdown-toggle.action-user-member {
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: #282828c4;
+}
+
+.border-name {
+    border: 1px solid #c2c2c2;
+    border-radius: 15px !important;
+    width: 200px !important;
+    color: #6a6a6a !important;
+}
+
+.update-name-visible-message {
+    background-color: #d8d8d8ba;
+    border-radius: 100%;
+    height: 24px;
+    padding: 5px 4px;
+    /*margin: 3px;*/
+    position: absolute;
+    right: -26px;
+    display: flex;
+    align-items: center;
+    width: 24px;
+}
+
+.save-name-visible-message {
+    background-color: #d8d8d8ba;
+    border-radius: 100%;
+    position: absolute;
+    top: 1px;
+    right: -34px;
+    height: 24px;
+    padding: 0 5px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-name-visible-message, .save-name-visible-message i {
+    font-size: 20px !important;
+}
+
+#data-role-create-group-chat-visible-message {
+    overflow-y: hidden;
+    display: flex;
+    overflow-x: scroll;
+}
+
+#data-role-create-group-chat-visible-message::-webkit-scrollbar {
+    height: 5px;
+    background: white;
+}
+
+.dropdown-remove-visible-message {
+    position: absolute;
+    right: 10px;
+    visibility: hidden;
+}
+
+.show-notification-about-visible-message {
+    padding: 0;
+    transform: translate3d(10px, -27px, 0) !important;
+}
+
+.show-notification-about-visible-message a {
+    margin-left: 13%;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+/**
+css icon dowload ảnh bên phần about xem tất cả ảnh
+ */
+.icon-dowload-about-visible-message, .icon-dowload-video-about-visible-message, .icon-dowload-video-detail-visible-message {
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    background-color: #fff;
+    border-radius: 3px;
+    right: 6px;
+    top: 2px;
+    cursor: pointer;
+}
+
+.icon-dowload-about-visible-message:hover, .icon-dowload-video-about-visible-message:hover, .icon-dowload-video-detail-visible-message{
+    color: #0068ff;
+}
+
+
+#layout-about-visible-message .item-image-about-see-all-visible-message:hover .icon-dowload-about-visible-message {
+    display: flex;
+}
+
+.item-image-about-see-all-visible-message {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+.item-image-about-see-all-visible-message.link {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+.list-image-itemimage-detail-about-visible-message {
+    width: 100%;
+}
+
+.icon-dowload-link-about-visible-message {
+    font-size: 22px;
+    color: #878787;
+    position: absolute;
+    left: 250px;
+    top: -17px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.hover-link-file:hover .icon-dowload-link-about-visible-message {
+    visibility: visible;
+}
+
+
+/**
+css cho xem chi tiết ghim
+ */
+#layout-about-visible-message .media-all-about-pinned-visible-message {
+    position: absolute;
+    top: 0;
+    z-index: 55;
+    width: 350px;
+    height: calc(100vh - 56px);
+    border-left: 2px solid #d4d4d4;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.pin-details-content-about-visible-message {
+    overflow-y: scroll;
+    height: calc(100vh - 60px - 73px - 41px);
+}
+
+.pin-details-content-item-visible-message {
+    padding: 10px;
+    border: 1px solid #e6d7d7;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.pin-details-content-about-visible-message::-webkit-scrollbar {
+    width: 6px;
+    overflow-y: scroll;
+}
+
+.pin-details-content-image-header {
+    width: 40px;
+    margin: 6px 0;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 1px solid #fff;
+}
+
+.name-user-pined-content {
+    font-weight: bold;
+    display: inline-grid;
+    margin: 5px 10px;
+}
+
+.name-user-pined-content i {
+    font-weight: normal;
+}
+
+.pin-details-content-item-header {
+    display: inline-flex;
+}
+
+.pin-details-content-image-body {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 1px solid #dfdfdf;
+}
+
+.pin-details-content-item-body {
+    display: inline-flex;
+}
+
+.name-user-pined-body-content {
+    font-weight: bold;
+    display: inline-grid;
+    margin: 0;
+}
+
+.content-pined-visible-message {
+    word-break: break-all;
+    width: 280px;
+}
+
+.pin-details-content-item-bottom {
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border: 1px solid #0068ff;
+    border-radius: 5px;
+    display: flex;
+}
+.pin-details-content-item-bottom:hover {
+   background-color: #0068ff33;
+}
+
+.date-pinned-message {
+    color: #8f8f8f;
+    padding-right: 5px;
+    /*border-right: 2px solid #a9a9a9;*/
+}
+
+#pin-visible-message-custom .date-pinned-message {
+    color: #8f8f8f;
+    padding-right: 5px;
+    border-right: 2px solid transparent;
+}
+
+.seen-message-old {
+    font-size: 14px !important;
+    cursor: pointer;
+    color: #0068ff;
+    font-weight: 600;
+
+}
+
+.icon-type-pinned {
+    display: inline-flex;
+}
+
+.ion-chatboxes:before, .ion-stats-bars:before {
+    font-size: 19px;
+    margin-right: 7px;
+    color: #0072bb;
+}
+
+.full-message-pinned {
+    width: 100%;
+    height: auto;
+    /*background-color: #e1dede;*/
+    border-radius: 4px;
+    padding: 8px 12px;
+    overflow: hidden;
+}
+
+.image-pin-contain-img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/**
+css slider ảnh about
+ */
+.content-wrapper-see-all-images-about-visible-message {
+    display: flex;
+}
+
+
+.thumbnail {
+    height: 110px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    border: 1px solid #c1c1c1;
+}
+
+.thumbnail:hover {
+    opacity: 1;
+}
+
+.active {
+    opacity: 1;
+}
+
+.slide-wrapper {
+    width: 100%;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+}
+
+
+#slide-right-next-visible-message, #slide-left-next-visible-message, #slide-video-left-next-visible-message, #slide-video-right-next-visible-message {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#slide-left-next-visible-message {
+    margin-right: 10px;
+}
+
+#slide-right-next-visible-message {
+    margin-left: 10px;
+}
+
+/**
+css cho button thêm thành viên
+ */
+.button-page .btn {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.btn-block + .btn-block {
+    margin-top: 0.5rem;
+}
+
+.btn-outline-primary {
+    color: #016d6f;
+    background-color: #fff;
+    background-color: transparent;
+}
+
+.btn-add-member-to-group {
+    margin: 10px 0 10px 15px;
+    font-size: 14px;
+    width: 90%;
+}
+
+.btn-add-member-to-group:hover {
+    color: #266c85;
+}
+
+/**
+css video carousel
+ */
+.video-carousel-about-visible-message {
+    width: 100%;
+    height: 100%;
+}
+
+.error-form {
+    border: 1px solid red !important;
+}
+
+.error-select-user {
+    color: red;
+    margin: 5px;
+    text-align: center;
+}
+
+.icon-add-member-visible-message {
+    cursor: pointer;
+    font-size: 24px;
+    color: #a7a2a2;
+    position: relative;
+    z-index: 1;
+}
+
+.icon-add-member-visible-message:hover {
+    color: #fa6342;
+}
+
+
+.item-vote {
+    position: relative;
+    margin: 10px 0;
+    background: #eeeeee;
+    border-radius: 4px;
+    padding: 7px 40px 7px 10px;
+    font-weight: 400;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+}
+
+.div-vote {
+    position: absolute;
+    background: #b3d8ff;
+    height: 100%;
+    border-radius: 4px;
+    left: 0;
+    top: 0;
+}
+
+.content-vote {
+    position: relative;
+    display: inline-block;
+    word-break: break-word;
+    flex: 1;
+}
+
+.count-vote {
+    top: calc(50% - 10px);
+    position: absolute;
+    display: inline-block;
+    right: 8px;
+    line-height: normal;
+    font-weight: 600;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+
+.add-user-about-visible-message {
+    position: relative;
+    margin-left: 4px;
+}
+
+#modal-add-member-group-chat-visible-message .row-list-user {
+    width: 100%;
+    height: 270px;
+}
+
+.disabled-add-member-visible-message {
+    opacity: 0.6;
+}
+
+.vote-details-content-about-visible-message, .pin-details-content-about-visible-message {
+    max-height: calc(100vh - 60px - 73px - 41px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.user-list-create-member {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: width 0.4s ease;
+    height: 100%;
+    margin: 5px -4px;
+    width: 100%;
+    border-right: 1px solid #f2f2f2;
+}
+
+.user-list-create-member::-webkit-scrollbar {
+    width: 4px;
+}
+
+.key-member-detail-visible-message {
+    position: absolute;
+    right: 0;
+    color: #ffcc7d;
+    bottom: 0;
+    background-color: #767676;
+    border-radius: 100%;
+    padding: 2px;
+    font-size: 10px !important;
+}
+
+/* other */
+.content-about{
+    max-width: 100%;
+    margin: 0;
+}
+
+#layout-about-visible-message {
+    width: 345px;
+    height: calc(100vh - 96px);
+    /*overflow-x: hidden;*/
+    /*overflow-y: auto;*/
+}
+
+#layout-about-visible-message .zoneQA {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #f5f5f5;
+    position: relative;
+    margin-top: 0 !important;
+}
+
+#layout-about-visible-message .zoneQA::before {
+    content: "";
+    width: 4px;
+    height: 15px;
+    background-color: #fa6342;
+    position: absolute;
+    left: 0;
+    top: 11px;
+    z-index: 9;
+}
+
+#layout-about-visible-message .ques {
+    background: #fff;
+    color: #001a33;
+    margin-bottom: 0;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    border-bottom: 1px solid #f5f5f5;
+    font-weight: 550;
+    font-size: 15px !important;
+    position: relative;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#layout-about-visible-message .ques-title {
+    display: flex;
+    align-items: center;
+}
+
+#layout-about-visible-message .ques.about-list-image.active ~ .ans {
+    display: none;
+}
+
+#layout-about-visible-message .ques.about-list-image ~ .ans {
+    display: block;
+}
+
+#layout-about-visible-message .ans {
+    background: #fff;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    text-align: start;
+}
+
+/*List image video grid*/
+.empty-content .text-center {
+    position: relative;
+    bottom: 8px;
+}
+
+.see-list-image-video-grid {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 4px 10px 7px;
+}
+
+.see-item-image-video-grid {
+    width: 100px;
+    height: 100px;
+    margin: 6px 4px;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    border-radius: 4px;
+    position: relative;
+}
+
+.see-item-image-video-grid-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.see-item-image-video-grid:hover .see-item-image-video-grid-img {
+    scale: 1.1;
+}
+
+
+.see-list-pinned-current-grid-see-all {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pin-visible-message-custom .see-list-pinned-current-grid-see-all {
+    height: 20px;
+}
+
+.see-list-pinned-current-grid-see-all-text {
+    width: 80%;
+    height: 24px;
+    color: #fa6342;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+.see-list-pinned-current-grid-see-all-text:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    color: #fa6342;
+    transition: all 0.3s linear;
+    position: absolute;
+    top: 20px;
+
+}
+
+.see-list-pinned-current-grid-see-all-text:hover {
+    text-decoration: underline;
+}
+
+.see-list-image-video-grid-see-all {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.see-list-image-video-grid-see-all-text {
+    width: 80%;
+    height: 24px;
+    color: #fa6342;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+.see-list-image-video-grid-see-all-text:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    color: #fa6342;
+    transition: all 0.3s linear;
+    position: absolute;
+    top: 20px;
+
+}
+
+.see-list-image-video-grid-see-all-text:hover {
+    text-decoration: underline;
+}
+
+.see-item-image-video-grid-download {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    border-radius: 4px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+    display: none;
+}
+
+.see-item-image-video-grid-download.file {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 4px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+    display: none;
+}
+
+.see-item-image-video-grid-download:hover {
+    color: #0068ff;
+}
+
+.see-item-image-video-grid:hover .see-item-image-video-grid-download {
+    display: flex;
+}
+
+#media-all-about-visible-message .md-tabs .nav-item {
+    width: calc(100% / 4);
+    text-align: center;
+    max-width: 100%;
+    margin: 0 !important;
+}
+
+#data-file-about-visible-message .hover-link-file:hover .see-item-image-video-grid-download.file-about{
+    display: flex;
+    right: 12px;
+    top: 0px;
+}
+/*Modal tag name message*/
+#layout-about-visible-message .message-tag-name-modal  {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    z-index: 55;
+    width: 350px;
+    height: calc(100vh - 56px);
+    border-left: 2px solid #d4d4d4;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#layout-about-visible-message .message-tag-name-modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#layout-about-visible-message .title-message-tag-name-modal {
+    font-size: 16px;
+    font-weight: 500;
+    color: #001a33;
+    position: relative;
+    right: 66px;
+}
+
+#data-all-message-tag-name {
+    display: block;
+    height: calc(100vh - 108px) !important;
+    overflow: auto;
+}
+
+#layout-about-visible-message .message-tag-name-item {
+    width: 100%;
+    height: 58px;
+    padding: 8px;
+    background-color: #fff;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#layout-about-visible-message .message-tag-name-item:hover {
+    background-color: #f2f2f2;
+}
+
+#layout-about-visible-message .container-tag-name-message {
+    width: calc(100% - 40px);
+}
+
+#layout-about-visible-message .info-message-tag-name {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#layout-about-visible-message .info-message-tag-name-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #dfdfdf;
+    margin-right: 8px;
+}
+
+#layout-about-visible-message .info-message-tag-name-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#layout-about-visible-message .content-message-tag-name {
+    width: 100%;
+    text-align: left;
+}
+
+#layout-about-visible-message .name-message-tag-name {
+    width: calc(100% - 80px);
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    margin-left: 4px;
+}
+
+#layout-about-visible-message .content-message-tag-name .info-mess{
+    font-size: 14px !important;
+    font-size: 14px !important;
+    width: 100%;
+    height: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+#layout-about-visible-message .time-message-tag-name {
+    width: 80px;
+    font-size: 12px;
+}
+
+.fa.fa-angle-double-left {
+    font-size: 20px !important;
+    cursor: pointer;
+}
+
+.dropdown-menu-custom {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    z-index: 9;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    border-radius: 4px;
+    display: none;
+}
+
+.dropdown.dropdown-action-user-about:hover .dropdown-menu-custom {
+    display: block;
+}
+
+.btn-send-image-detail {
+    height: 32px;
+    min-width: 32px;
+    padding: 0 8px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.btn-send-image-detail i {
+    font-size: 16px;
+    margin-right: 4px;
+    color: #001a33;
+}
+
+.btn-send-image-detail span {
+    font-size: 14px !important;
+    margin-left: 2px;
+    color: #001a33;
+}
+
+.text-center.text-empty-notify {
+    font-size: 13px !important;
+    line-height: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #72808e;
+    user-select: none;
+}
+
+.fa.fa-angle-double-left {
+    color: #23d2e2 !important;
+}
+
+.rotate-icon-down {
+    transform: rotate(-90deg);
+}
+
+.introjs-helperNumberLayer {
+    left: unset !important;
+    right: -16px !important;
+}
+
+/*Setting group*/
+.body-all-setting-popup-title {
+    width: 100%;
+    color: #001a33;
+    font-size: 14px;
+    text-align: left;
+    padding: 6px 16px 2px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.body-all-setting-popup-accept-member-list {
+    width: 100%;
+    border-bottom: 4px solid #dfdfdf;
+    padding-bottom: 8px;
+    margin-top: 16px;
+}
+
+.body-all-setting-popup-accept-member-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 16px;
+    margin-bottom: 8px;
+}
+
+.body-all-setting-popup-accept-member-item-title {
+    width: calc(100% - 50px);
+    text-align: left;
+}
+
+.check-on-off-checkbox{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 25px;
+    transition: background .6s;
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+
+.check-on-off-checkbox::after{
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    transition: left .3s;
+}
+
+.check-on-off-checkbox:checked{
+    background: green;
+}
+
+.check-on-off-checkbox:checked::after{
+    left: 70%;
+}
+
+.button-dissolution-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button-dissolution-group-btn {
+    width: 80%;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #FBEBE9;
+    color: #db342e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

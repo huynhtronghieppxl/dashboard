@@ -1,0 +1,586 @@
+/* Call audio header */
+#layout-call-visible-message{
+    z-index: 9999;
+}
+
+#layout-call-visible-message .call-wraper {
+    display: contents;
+    text-align: center;
+}
+
+#layout-call-visible-message .custom-modal-content-visible-message{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+#layout-call-visible-message .custom-modal-dialog-visible-message{
+    height: 100%;
+    width: 100%;
+}
+#layout-call-visible-message .m-live-call {
+    /* background: linear-gradient(to bottom, #ff7814, #ffd0ad); */
+    background-color: transparent;
+    border-radius: 3%;
+    display: block;
+    left: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    z-index: 55;
+    top: 46%;
+    transform: translate(-40%, -50%);
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+}
+#layout-call-visible-message .blur-image-call-audio{
+    content: "";
+    position: fixed;
+    left: 53%;
+    top: 46%;
+    height: 600px;
+    width: 500px;
+    border-radius: 3%;
+    transform: translate(-45%, -50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(10px);
+}
+#layout-call-visible-message .bg-blue {
+    background: #23d2e2;
+}
+#layout-call-visible-message .bg-red {
+    background: #e44a3c;
+}
+#layout-call-visible-message .countdown > div {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background: inherit;
+    border-radius: 0%;
+}
+#layout-call-visible-message .quad1, .quad2 {
+    left: 50%;
+    transform-origin: left bottom;
+}
+#layout-call-visible-message .quad3, .quad4 {
+    left: 0%;
+    transform-origin: right top;
+
+}
+#layout-call-visible-message .quad1, .quad4 {
+    top: 0%;
+}
+#layout-call-visible-message .quad2, .quad3 {
+    top: 50%;
+}
+#layout-call-visible-message .quad1, .quad3 {
+    transform: skew(0deg); /* invisible at -90deg */
+    transition: all 1s linear 0s;
+}
+#layout-call-visible-message .quad2, .quad4 {
+    transform: skewY(0deg); /* invisible at 90deg */
+    transition: all 1s linear 0s;
+}
+
+#layout-call-visible-message div[data-progress] {
+    margin: auto;
+    position: relative;
+    height: 140px;
+    width: 140px;
+    background: #ffd0ad;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 10px #12F972;
+    transition: all 1s;
+    overflow: hidden;
+    top: 65px;
+    left: 105px;
+    /* top: 45px;
+    left: 75px; */
+    display: inline-block;
+}
+#layout-call-visible-message .m-live-call > figure {
+    display: inline-block;
+    border-radius: 100%;
+    width: 123px;
+    height: 123px;
+    margin: 4rem 0 5rem;
+    position: relative;
+    right: 30px;
+    /* right: 90px;
+    bottom: 20px; */
+}
+
+#layout-call-visible-message .m-live-call > figure img {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#layout-call-visible-message .call-box{
+    position: relative;
+    bottom: 10px;
+}
+#layout-call-visible-message .call-box > .countdown-timer > ins {
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#layout-call-visible-message .call-box > h6 {
+    color: black;
+    display: inline-block;
+    font-size: 24px !important;
+    font-weight: 400;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#layout-call-visible-message .call-box > span {
+    color: #23d2e2;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+#layout-call-visible-message .call-box > i {
+    color: #a9a9a9;
+    font-size: 40px;
+}
+
+#layout-call-visible-message .yesorno {
+    display: inline-block;
+    width: 100%;
+    padding-top: 50px;
+}
+
+#layout-call-visible-message .yesorno > a {
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 20px;
+    width: 50px;
+}
+#layout-call-visible-message .volume-phone-call{
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    background: rgba(0,0,0,0.5);
+}
+#layout-call-visible-message .volume-phone-call > i{
+    margin-top: 15px;
+}
+#layout-call-visible-message .micro-phone-call{
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    background: rgba(0,0,0,0.5);
+}
+#layout-call-visible-message .call-back{
+    visibility: visible;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+}
+#layout-call-visible-message .add-missed-note{
+    color: red;
+    visibility: hidden;
+    font-size: 15px !important;
+}
+#layout-call-visible-message .dot1{
+    top: 0;
+    left: 45%;
+    position: absolute;
+    background: cyan;
+    height: 8px;
+    width: 8px;
+    border: none;
+    border-radius: 50%;
+    animation: func 2s linear infinite;
+}
+#layout-call-visible-message .dot2{
+    top: 0;
+    left: 50%;
+    animation: func 2s linear infinite;
+    animation-delay: 0s;
+    position: absolute;
+    background: cyan;
+    height: 8px;
+    width: 8px;
+    border: none;
+    border-radius: 50%;
+    animation-delay: .5s;
+}
+#layout-call-visible-message .dot3{
+    top: 0;
+    left: 55%;
+    position: absolute;
+    background: cyan;
+    height: 8px;
+    width: 8px;
+    border: none;
+    border-radius: 50%;
+    animation: func 2s linear infinite;
+    animation-delay: 1s;
+}
+  @keyframes func{
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+#layout-call-visible-message .mic-active, .mic-off{
+    margin-top: 15px;
+}
+#layout-call-visible-message .margin-call{
+    margin-top: 7px;
+}
+#layout-call-visible-message .margin-call-off{
+    margin-top: 15px;
+}
+@keyframes calling {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+    }
+    20% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.4),
+        0 0 0 30px rgba(255, 255, 255, 0.4);
+    }
+    40% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.4),
+        0 0 0 40px rgba(255, 255, 255, 0.3),
+        0 0 0 5px rgba(255, 255, 255, 0.3);
+    }
+    60% {
+        box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.3),
+        0 0 0 50px rgba(255, 255, 255, 0.2),
+        0 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+    80% {
+        box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.2),
+        0 0 0 60px rgba(255, 255, 255, 0.2),
+        0 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 50px rgba(255, 255, 255, 0.1),
+        0 0 0 70px rgba(255, 255, 255, 0.1),
+        0 0 0 30px rgba(255, 255, 255, 0.1);
+
+    }
+}
+#layout-call-visible-message .calling-img{
+    animation: calling 1.5s ease-out infinite;
+}
+#layout-call-visible-message .visible-call{
+    opacity: 1;
+    visibility: visible;
+}
+#layout-call-visible-message .hidden-call{
+    opacity: 0;
+    visibility: hidden;
+}
+#layout-call-visible-message .accept-call{
+    visibility: visible;
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 10px;
+    position: relative;
+    animation-name: shaking-call;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#layout-call-visible-message .accept-call:hover{
+    animation-name: none;
+}
+@keyframes shaking-call {
+    0% {top: -5px}
+    20% {top: 8px}
+    40% {top: -5px}
+    60% {top: 8px}
+    80% {top: 0}
+    100% {top: -5px}
+}
+#layout-call-visible-message .decline-other{
+    visibility: visible;
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 10px;
+    margin-right: 5px;
+}
+
+/* Video Call header */
+#layout-call-visible-message .video-call-wraper {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 55;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.25s linear 0s;
+}
+#layout-call-visible-message .video-call-wraper.active {
+    opacity: 1;
+    visibility: visible;
+}
+#layout-call-visible-message .m-live-video-call {
+    background: linear-gradient(to bottom, #ff7814, #ffd0ad);
+    border-radius: 5px;
+    display: block;
+    left: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-40%, -50%);
+    width: 500px;
+}
+#layout-call-visible-message .size-video {
+    float: right;
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+    cursor: pointer;
+    background: black;
+}
+#layout-call-visible-message .quad1Video, .quad2Video {
+    left: 50%;
+    transform-origin: left bottom;
+}
+#layout-call-visible-message .quad3Video, .quad4Video{
+    left: 0%;
+    transform-origin: right top;
+
+}
+#layout-call-visible-message .quad1Video, .quad4Video {
+    top: 0%;
+}
+#layout-call-visible-message .quad2Video, .quad3Video {
+    top: 50%;
+}
+#layout-call-visible-message .quad1Video, .quad3Video {
+    transform: skew(0deg); /* invisible at -90deg */
+    transition: all 1s linear 0s;
+}
+#layout-call-visible-message .quad2Video, .quad4Video {
+    transform: skewY(0deg); /* invisible at 90deg */
+    transition: all 1s linear 0s;
+}
+
+#layout-call-visible-message div[data-count] {
+    box-sizing: border-box;
+    position: relative;
+    height: 140px;
+    width: 140px;
+    background: #ffd0ad;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 10px #12f972;
+    transition: all 1s;
+    overflow: hidden;
+    top: 96px;
+    left: 20px;
+    display: inline-block;
+    margin: auto;
+}
+#layout-call-visible-message .counterVideo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 50%;
+    background: transparent;
+    z-index: 4;
+}
+#layout-call-visible-message .countDownVideo > div {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background: inherit;
+    border-radius: 0%;
+}
+#layout-call-visible-message .accept-video{
+    visibility: visible;
+    display: inline-block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 10px;
+    margin-right: 5px;
+    position: relative;
+    animation-name: shaking-video;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#layout-call-visible-message .accept-video:hover{
+    animation-name: none;
+}
+@keyframes shaking-video {
+    0% {top: -5px}
+    20% {top: 8px}
+    40% {top: -5px}
+    60% {top: 8px}
+    80% {top: 0}
+    100% {top: -5px}
+}
+#layout-call-visible-message .decline-video-other{
+    visibility: visible;
+    display: inline-block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 10px;
+}
+#layout-call-visible-message .decline-video-other > i{
+    margin-top: 2px;
+}
+#layout-call-visible-message .m-live-video-call > figure {
+    display: inline-block;
+    border-radius: 100%;
+    width: 123px;
+    height: 123px;
+    position: relative;
+    right: 3px;
+    bottom: 41px;
+}
+#layout-call-visible-message .m-live-video-call > figure > img {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#layout-call-visible-message .video-call-box{
+    position: relative;
+    bottom: 10px;
+}
+#layout-call-visible-message .video-call-box > h6 {
+    color: #535165;
+    display: inline-block;
+    font-size: 22px !important;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-top: 10px;
+    width: 100%;
+}
+#layout-call-visible-message .countdown-timer-video > ins {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+#layout-call-visible-message .countdown-timer-video > i{
+    color: #fff;
+}
+#layout-call-visible-message .note-video {
+    display: inline-block;
+    color: #535165;
+    font-weight: 500;
+    margin-bottom: 50px !important;
+}
+#layout-call-visible-message .note-video > p {
+    display: inline-block;
+}
+#layout-call-visible-message .miss-video{
+    color: red;
+    font-size: 15px !important;
+    margin-bottom: 31px !important;
+    visibility: hidden;
+}
+#layout-call-visible-message .video-yesorno {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top: 80;
+}
+#layout-call-visible-message .video-yesorno > a {
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 20px;
+    width: 50px;
+}
+#layout-call-visible-message .on-off-cam{
+    background: rgba(0,0,0,0.5);
+}
+#layout-call-visible-message .on-off-cam > i{
+    margin-top: 15px;
+}
+#layout-call-visible-message .accept-call-video > i{
+    margin-top: 15px;
+}
+#layout-call-visible-message .micro-phone-video{
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    background: rgba(0,0,0,0.5);
+}
+#layout-call-visible-message .micro-phone-video > i{
+    margin-top: 15px;
+}

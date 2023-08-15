@@ -1,0 +1,433 @@
+#slider-image-about-detail-visible-message {
+    width: 100%;
+    height: calc(100vh - 120px);
+    flex-direction: column;
+    margin-top: 6px;
+}
+
+#slider-image-about-detail-visible-message img {
+    opacity: 1 !important;
+}
+
+#slider-video-about-detail-visible-message{
+    justify-content: center;
+    width: 100%;
+    max-height: 100%;
+    display: inline-flex;
+    overflow-x: hidden;
+}
+
+#slider-image-about-detail-visible-message::-webkit-scrollbar {
+    width: 3px;
+    background-color: transparent;
+}
+
+/* ! popup preview */
+#modal-see-all-images-visible-message .modal-show-grid-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 1050;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.3);
+    opacity: 0;
+    visibility: hidden;
+}
+#modal-see-all-images-visible-message .modal-show-grid-video.show{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1);
+}
+.ti-arrow-circle-right{
+    cursor: pointer;
+}
+.ti-arrow-circle-left{
+    cursor: pointer;
+}
+#layout-about-visible-message .video-hover-show-download:hover .icon-dowload-about-visible-message{
+    display: flex;
+}
+#modal-see-all-images-visible-message .modal-show-grid-images.show{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ! popup preview */
+#modal-see-all-images-visible-message .modal-show-grid-images {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0);
+    opacity: 0;
+    visibility: hidden;
+}
+/*
+* Header
+*/
+.modal-show-grid-image-header {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #111111;
+    color: #fff;
+}
+/*
+* Toolbar
+*/
+#modal-see-all-images-visible-message .modal-show-grid-image-toolbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 16px;
+    z-index: 1;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-sender {
+    width: 100%;
+    max-width: calc(100% / 4);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.modal-show-grid-image-sender-name {
+    width: 100%;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 16px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 16px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-sender img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.modal-show-grid-image-toolbar-action {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-toolbar-icon {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-toolbar-icon:hover {
+    color: #0072bc;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-preview {
+    width: 100%;
+    height: calc(100% - 90px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-preview-left {
+    width: 100%;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-preview-right {
+    width: 150px;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-preview-right.show {
+    width: 0;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-preview-images {
+    width: calc(100% - 150px);
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#modal-see-all-images-visible-message .modal-show-img-center-preview{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-preview-image {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    transition: all 0.5s ease;
+    object-position: 50% 50%;
+    transform: rotate(0deg) scale(1);
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-preview-image:hover {
+    opacity: 1 !important;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-preview-left-button, .modal-show-grid-image-preview-right-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: #393939;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-preview-right-button {
+    right: 24px;
+}
+#modal-see-all-images-visible-message .modal-show-grid-image-preview-left-button {
+    left: 24px;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-preview-button-icon {
+    color: #fff;
+    font-size: 40px;
+}
+#modal-see-all-images-visible-message  .modal-show-grid-image-preview-left-button:hover, .modal-show-grid-image-preview-right-button:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    transition: all 0.5s ease;
+}
+
+#close-modal-preview-image {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    transform: translateY(-50%);
+}
+
+#close-modal-preview-video {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    transform: translateY(-50%);
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-thumbnail {
+    position: relative;
+
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-thumbnail-images {
+    min-width: 0%;
+    transition: transform .5s, filter .5s;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    margin: 0 4px;
+}
+
+#modal-see-all-images-visible-message .modal-show-grid-image-thumbnail-image {
+    height: 122px;
+    object-fit: cover;
+    width: 117px;
+}
+
+.modal-show-grid-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-preview-image-img {
+    width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    border: 1px solid #ccc;
+    margin: 4px 5px;
+    border-radius: 4px;
+    opacity: 0.5;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-preview-image-img:hover {
+    opacity: 0.8;
+}
+
+.slider-preview-image-img.active {
+    border: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    opacity: 1;
+}
+
+#modal-see-all-images-visible-message .img-view-preview-message{
+    object-fit: cover;
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.slide-wrapper-carousel{
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider-about-scroll-message{
+    width: 440px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.slider-about-scroll-message.scrolling {
+    scroll-snap-type: none;
+}
+
+.slider-about-scroll-message::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-about-scroll-message::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+}
+
+.slider-about-scroll-message::-webkit-scrollbar-thumb {
+    background-color: #dede2e;
+    outline: 1px solid slategrey;
+    border-radius: 100px;
+
+}
+
+.slider-about-scroll-message::-webkit-scrollbar-thumb:hover{
+    background-color: #18b5ce;
+}
+
+.button-click-slider{
+    font-size: 30px;
+    padding: 10px 10px;
+    color: #9d9d9d;
+    cursor: pointer;
+}
+
+.button-click-slider:hover{
+    color: #0e0e0e;
+}
+
+.modal-show-grid-image-thumbnail{
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+/**
+custom next prev ảnh about
+ */
+.carousel-inner-about{
+    text-align: center;
+}
+.carousel-item-about img{
+    width: 600px;
+    height: 400px;
+}
+
+
+.timeline-slider {
+    position: relative;
+    cursor: pointer;
+    width: 23px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.timeline-slider__track {
+    position: absolute;
+    height: 100%;
+    top: 2px;
+}
+.timeline-slider__track__progress {
+    position: absolute;
+    height: calc(100% - 110px);
+    width: 2px;
+    background: #fff;
+}
+
+.timeline-slider__pivot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    left: 6.5px;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.timeline-slider__pivot--left {
+    bottom: -100%;
+}
+.timeline-slider__pivot--right {
+    bottom: calc(100% - 12px);
+}
+
+.slide-carousel-time {
+    height: 16px;
+    color: #fff;
+    font-size: 14px !important;
+    margin-top: 4px;
+}
+
+/*Icon xem video*/
+.play-btn-video-slide {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.play-btn-video-slide i {
+    color: #fff;
+    font-size: 50px;
+}

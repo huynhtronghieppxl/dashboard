@@ -1,0 +1,118 @@
+
+.form-validate-input {
+    position: relative;
+}
+.form-validate-input input {
+    /*font-size: 18px;*/
+    /*padding: 12px 12px 7px;*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*border: none;*/
+    /*-webkit-border-radius: 3px;*/
+    /*-moz-border-radius: 3px;*/
+    /*-ms-border-radius: 3px;*/
+    /*border-radius: 3px;*/
+
+    width: 100%;
+    border: none;
+    padding-bottom: 6px  !important;
+    background: none  !important;
+    padding: 13px 12px 9px 15px  !important;
+}
+.form-validate-input input:focus {
+    outline: none;
+}
+.form-validate-input .focus-validate label {
+    top: -7px !important;
+    font-size: 12px !important;
+    color: #d2d2d2;
+    background: #fff;
+    padding: 0px 5px; !important
+z-index: 9999 !important;
+    left: 21px !important;
+}
+.form-validate-input.focus-validate .line {
+    border: 1.5px solid #0072bc !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px !important;
+    position: absolute !important;
+    width: calc( 100% - 2px ) !important;
+    height: calc( 100% - 2px) !important;
+    top: 0px !important;
+    pointer-events: none;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    border-radius: 13px !important;
+}
+
+.new-table tbody tr td input ~ .focus-validate {
+    border: 1.5px solid #0072bc !important;
+}
+
+.form-validate-input.validate-error .line{
+    border: 1.5px solid #fe5d70;
+}
+.form-validate-input.warning-error .line{
+    border: 1.5px solid #fe5d70 !important ;
+}
+.form-validate-input.focus-validate label {
+    color: #0072bc;
+}
+.form-validate-input label {
+    color: #464343;
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    max-width: max-content;
+    z-index: 99;
+    left: 21px;
+    top: -10px;
+    background: #fff;
+    padding: 0px 5px;
+    font-weight: 600;
+    height: -2px !important;
+    white-space: nowrap;
+}
+.form-validate-input label i {
+    margin-right: 4px;
+    font-size: 12px;
+}
+.form-validate-input .line {
+    border: 1.5px solid #a3a1a1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 13px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    pointer-events: none;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+table .form-validate-input input {
+    border: none !important;
+    width: 100px;
+}
+
+.form-validate-input .input-tooltip {
+    padding: 13px 39px 9px 15px  !important;
+}
+
+.validate-table-validate > input{
+    background: none!important;
+}
+
+
+table .border-group input{
+    background: none !important;
+}

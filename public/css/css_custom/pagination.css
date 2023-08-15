@@ -1,0 +1,33 @@
+.simple-pagination ul {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.simple-pagination li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+    color: #666;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #EEE;
+    background-color: #FFF;
+    box-shadow: 0 0 10px 0 #EEE;
+}
+
+.simple-pagination .current {
+    color: #1462B0 !important;
+    background-color: #E3ECF5 !important;
+    /*border-color: #01a9ac;*/
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+    background: #F1F5FA !important;
+    color: #7D7E81 !important;
+}
